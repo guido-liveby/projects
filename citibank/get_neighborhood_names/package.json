@@ -1,0 +1,24 @@
+{
+  "name": "get_neighborhood_names",
+  "version": "1.0.0",
+  "description": "get neighborhood names associated with tracts",
+  "keywords": [],
+  "private": true,
+  "scripts": {
+    "test": "DEBUG=names:* DEBUG_COLORS=true node index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@liveby/mongodb-connect": "^1.4.0",
+    "@liveby/pg-connect": "^2.0.1",
+    "@supercharge/promise-pool": "^1.7.0",
+    "@turf/turf": "^6.5.0",
+    "debug": "^4.3.2",
+    "dotenv": "^10.0.0",
+    "mongodb": "^4.1.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "standard": "^16.0.3"
+  }
+}
