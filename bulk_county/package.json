@@ -1,0 +1,33 @@
+{
+  "name": "bulk_county",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "echo not yet",
+    "test": "DEBUG='marketExport*' DEBUG_COLORS=true jest",
+    "test:watch": "DEBUG='marketExport*' DEBUG_COLORS=true jest --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "debug": "^4.3.2",
+    "jest": "^27.3.1",
+    "standard": "^16.0.4"
+  },
+  "dependencies": {
+    "@liveby/mongodb-connect": "^1.4.0",
+    "@liveby/pg-connect": "^2.0.1",
+    "knex": "^0.95.11",
+    "pg-format": "^1.0.4"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "jest": {
+    "testRegex": "__test__/.*test[.]js$"
+  }
+}

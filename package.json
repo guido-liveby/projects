@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "standard": "^16.0.4"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "jest": {
+    "testRegex": "__test__/.*test[.]js$"
+  }
+}

@@ -49,7 +49,6 @@ async function getNeighborhoodsFromTracts (params) {
 
       console.info(`\tProcessed neighborhoods for tract ${geoid}`)
       features.forEach(feature => {
-        debug(feature)
         writer.write(`\n${JSON.stringify(feature)},`)
       })
 
