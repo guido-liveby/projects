@@ -1,4 +1,6 @@
+require('dotenv')
 const debug = require('debug')('marketExport:test')
+const { withPostgres } = require('../src/util')
 const { getBoundaryIds, getBoundaries, createTempTable } = require('../src')
 
 describe('get reports', () => {
@@ -46,6 +48,18 @@ describe('get reports', () => {
       })
       .sort(() => 0.5 - Math.random())
       .slice(0, 5)
-    const data = await createTempTable({ values })
+    const tableName = await createTempTable({ values })
+
+    await withPostgres(async (pgClient) => {
+      const tableData = await pgClient.query(
+        `select properties_label , ST_AsGeoJSON(geom) geom from ${tableName}`
+      )
+      debug(
+        tableData.rows.map((i) => ({
+          properties_label: i.properties_label,
+          geom: JSON.parse(i.geom)
+        }))
+      )
+    })
   }, 60000)
 })

@@ -1,7 +1,6 @@
-require('dotenv')
-const debug = require('debug')('marketExport')
+// const debug = require('debug')('marketExport')
+const { withPostgres } = require('./util')
 const mgConnect = require('@liveby/mongodb-connect')
-const pgConnect = require('@liveby/pg-connect')
 const { ObjectId } = require('mongodb')
 const format = require('pg-format')
 
@@ -11,7 +10,7 @@ module.exports = {
   createTempTable
 }
 
-async function getBoundaryIds(params) {
+async function getBoundaryIds (params) {
   const { dbName = 'LiveBy', collection, find } = params
   const mgClient = await mgConnect()
   const data = await mgClient
@@ -23,7 +22,7 @@ async function getBoundaryIds(params) {
   return data.map((d) => String(d.boundary))
 }
 
-async function getBoundaries(params) {
+async function getBoundaries (params) {
   const {
     dbName = 'LiveBy',
     collection = 'neighborhoods',
@@ -43,31 +42,29 @@ async function getBoundaries(params) {
   return data
 }
 
-async function createTempTable(params) {
-  const { values, tableName = 'public.tmp_bounds' } = params
+async function createTempTable (params) {
+  const { tableName = 'public.tmp_bounds', values } = params
 
-  const dropTempTableQuery = getDropTempTableQuery({ tableName })
-  const createTempTableQuery = getCreateTempTableQuery({ tableName })
-  const insertTempTableQuery = getInsertTempTableQuery({ tableName, values })
-  let pgClient
-  try {
-    pgClient = await pgConnect()
+  await withPostgres(async (pgClient) => {
+    const dropTempTableQuery = getDropTempTableQuery({ tableName })
     await pgClient.query(dropTempTableQuery)
+
+    const createTempTableQuery = getCreateTempTableQuery({ tableName })
     await pgClient.query(createTempTableQuery)
+
+    const insertTempTableQuery = getInsertTempTableQuery({ tableName, values })
     await pgClient.query(insertTempTableQuery)
-    const updateGeom = `update ${tableName} set geom = ST_SetSRID(ST_Multi(ST_GeomFromGeoJSON(geom_obj::text)),4326)`
-    await pgClient.query(updateGeom)
-  } catch (err) {
-    console.error(err)
-    throw err
-  } finally {
-    pgClient.end()
-  }
+
+    const updateGeomQuery = getUpdateGeomQuery({ tableName })
+    await pgClient.query(updateGeomQuery)
+  })
+
+  return tableName
 }
 
-function getCreateTempTableQuery(params) {
+function getCreateTempTableQuery (params) {
   const { tableName } = params
-  const query = `create table IF NOT EXISTS ${tableName} (
+  const sql = `create table IF NOT EXISTS ${tableName} (
   id serial,
   mongo_id varchar(24),
   properties_label varchar,
@@ -75,18 +72,24 @@ function getCreateTempTableQuery(params) {
   geom geometry(Multipolygon, 4326)
 );
 CREATE INDEX ON ${tableName} USING GIST (geom);`
-  return query
+  return sql
 }
-function getDropTempTableQuery(params) {
+function getDropTempTableQuery (params) {
   const { tableName } = params
-  const query = `drop table if exists ${tableName} cascade;`
-  return query
+  const sql = `drop table if exists ${tableName} cascade;`
+  return sql
 }
-function getInsertTempTableQuery(params) {
+function getInsertTempTableQuery (params) {
   const { tableName, values } = params
-  const query = format(
+  const sql = format(
     `insert into ${tableName} (mongo_id, properties_label, geom_obj) VALUES %L`,
     values
   )
-  return query
+  return sql
+}
+
+function getUpdateGeomQuery (params) {
+  const { tableName } = params
+  const sql = `update ${tableName} set geom = ST_SetSRID(ST_Multi(ST_GeomFromGeoJSON(geom_obj::text)),4326)`
+  return sql
 }
