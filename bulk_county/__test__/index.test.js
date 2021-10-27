@@ -1,16 +1,38 @@
 require('dotenv')
-const debug = require('debug')('marketExport:test')
+const fixtures = require('./fixture/index.json')
 const { withPostgres } = require('../src/util')
-const { getBoundaryIds, getBoundaries, createTempTable } = require('../src')
+const { getBoundaryIds, getBoundaries, createBoundaryTable } = require('../src')
+const { matchers } = require('jest-json-schema')
+expect.extend(matchers)
+let testParams
+beforeAll(() => {
+  testParams = {
+    reportParams: {
+      collection: 'productboundaries',
+      find: {
+        clientid: 'atproperties',
+        boundaryType: 'county'
+      }
+    },
+    sampleSize: 5,
+    boundaryTable: 'public.tmp_boundary_test'
+  }
+})
 
-describe('get reports', () => {
+describe('setup for reports', () => {
+  afterAll(async () => {
+    const { boundaryTable } = testParams
+    await withPostgres(async (pgClient) => {
+      const query = `drop table if exists ${boundaryTable} cascade`
+      await pgClient.query(query)
+    })
+  })
+
   it('returns boundary ids in an array', async () => {
     expect.hasAssertions()
+    const { reportParams } = testParams
 
-    const data = await getBoundaryIds({
-      collection: 'productboundaries',
-      find: { clientid: 'atproperties', boundaryType: 'county' }
-    })
+    const data = await getBoundaryIds(reportParams)
 
     expect(Array.isArray(data)).toBeTruthy()
     expect(data).not.toHaveLength(0)
@@ -22,44 +44,54 @@ describe('get reports', () => {
   it('returns boundaries in an array', async () => {
     expect.hasAssertions()
 
-    const boundaryIds = await getBoundaryIds({
-      collection: 'productboundaries',
-      find: { clientid: 'atproperties', boundaryType: 'county' }
-    })
+    const { boundaryIds } = fixtures
 
     const data = await getBoundaries({ boundaryIds })
+
     expect(Array.isArray(data)).toBeTruthy()
-    expect(data).not.toHaveLength(0)
+    expect(data.length).toBeGreaterThan(0)
   }, 10000)
 
   it.only('creates and inserts into tmp table', async () => {
     expect.hasAssertions()
-
-    const boundaryIds = await getBoundaryIds({
-      collection: 'productboundaries',
-      find: { clientid: 'atproperties', boundaryType: 'county' }
-    })
-    const boundaries = await getBoundaries({ boundaryIds })
-
-    const values = boundaries
-      .map((b) => {
-        const { _id, properties, geometry } = b
-        return [String(_id), properties.label, geometry]
-      })
-      .sort(() => 0.5 - Math.random())
-      .slice(0, 5)
-    const tableName = await createTempTable({ values })
+    const { boundaries } = fixtures
+    const { sampleSize, boundaryTable } = testParams
 
     await withPostgres(async (pgClient) => {
-      const tableData = await pgClient.query(
-        `select properties_label , ST_AsGeoJSON(geom) geom from ${tableName}`
-      )
-      debug(
-        tableData.rows.map((i) => ({
-          properties_label: i.properties_label,
-          geom: JSON.parse(i.geom)
-        }))
-      )
+      await pgClient.query(`drop table if exists ${boundaryTable} cascade`)
     })
+
+    const tableName = await createBoundaryTable({ boundaryTable, boundaries, sampleSize })
+
+    const data = await withPostgres(async (pgClient) => {
+      const query = `select * from ${tableName}`
+      const { rows } = await pgClient.query(query)
+      return rows
+    })
+
+    expect(Array.isArray(data)).toBeTruthy()
+    expect(data).toHaveLength(sampleSize)
+    expect(data).toEqual(
+      expect.arrayContaining([
+        expect.objectContaining({
+          properties_label: expect.any(String),
+          geom: expect.any(String),
+          mongo_id: expect.any(String)
+        })
+      ])
+    )
+  }, 10000)
+})
+
+describe('run reports', () => {
+  beforeAll(async () => {
+    const { reportParams, sampleSize } = testParams
+    const boundaryIds = await getBoundaryIds(reportParams)
+    const boundaries = await getBoundaries({ boundaryIds })
+    const boundaryTable = await createBoundaryTable({ values })
+    console.log(boundaryTable)
   }, 60000)
+  it('creates a report', async () => {
+    expect.hasAssertions()
+  })
 })

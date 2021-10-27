@@ -7,7 +7,8 @@ const format = require('pg-format')
 module.exports = {
   getBoundaryIds,
   getBoundaries,
-  createTempTable
+  createBoundaryTable,
+  buildReport
 }
 
 async function getBoundaryIds (params) {
@@ -42,54 +43,70 @@ async function getBoundaries (params) {
   return data
 }
 
-async function createTempTable (params) {
-  const { tableName = 'public.tmp_bounds', values } = params
+async function createBoundaryTable (params) {
+  const { boundaryTable = 'public.tmp_boundary', boundaries, sampleSize } = params
+
+  let values = boundaries
+    .map((b) => {
+      const { _id, properties, geometry } = b
+      return [String(_id), properties.label, geometry]
+    })
+    .sort(() => 0.5 - Math.random())
+  if (sampleSize) {
+    values = values.slice(0, sampleSize)
+  }
 
   await withPostgres(async (pgClient) => {
-    const dropTempTableQuery = getDropTempTableQuery({ tableName })
+    const dropTempTableQuery = getDropTempTableQuery({ boundaryTable })
     await pgClient.query(dropTempTableQuery)
 
-    const createTempTableQuery = getCreateTempTableQuery({ tableName })
+    const createTempTableQuery = getCreateTempTableQuery({ boundaryTable })
     await pgClient.query(createTempTableQuery)
 
-    const insertTempTableQuery = getInsertTempTableQuery({ tableName, values })
+    const insertTempTableQuery = getInsertTempTableQuery({ boundaryTable, values })
     await pgClient.query(insertTempTableQuery)
 
-    const updateGeomQuery = getUpdateGeomQuery({ tableName })
+    const updateGeomQuery = getUpdateGeomQuery({ boundaryTable })
     await pgClient.query(updateGeomQuery)
   })
 
-  return tableName
+  return boundaryTable
 }
 
 function getCreateTempTableQuery (params) {
-  const { tableName } = params
-  const sql = `create table IF NOT EXISTS ${tableName} (
+  const { boundaryTable } = params
+  const sql = `create table IF NOT EXISTS ${boundaryTable} (
   id serial,
   mongo_id varchar(24),
   properties_label varchar,
   geom_obj jsonb,
   geom geometry(Multipolygon, 4326)
 );
-CREATE INDEX ON ${tableName} USING GIST (geom);`
+CREATE INDEX ON ${boundaryTable} USING GIST (geom);`
   return sql
 }
+
 function getDropTempTableQuery (params) {
-  const { tableName } = params
-  const sql = `drop table if exists ${tableName} cascade;`
+  const { boundaryTable } = params
+  const sql = `drop table if exists ${boundaryTable} cascade;`
   return sql
 }
+
 function getInsertTempTableQuery (params) {
-  const { tableName, values } = params
+  const { boundaryTable, values } = params
   const sql = format(
-    `insert into ${tableName} (mongo_id, properties_label, geom_obj) VALUES %L`,
+    `insert into ${boundaryTable} (mongo_id, properties_label, geom_obj) VALUES %L`,
     values
   )
   return sql
 }
 
 function getUpdateGeomQuery (params) {
-  const { tableName } = params
-  const sql = `update ${tableName} set geom = ST_SetSRID(ST_Multi(ST_GeomFromGeoJSON(geom_obj::text)),4326)`
+  const { boundaryTable } = params
+  const sql = `update ${boundaryTable} set geom = ST_SetSRID(ST_Multi(ST_GeomFromGeoJSON(geom_obj::text)),4326)`
   return sql
+}
+
+function buildReport (params) {
+
 }
