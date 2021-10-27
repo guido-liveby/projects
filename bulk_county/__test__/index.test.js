@@ -1,23 +1,31 @@
 require('dotenv')
+// const debug = require('debug')('marketExport:test')
 const fixtures = require('./fixture/index.json')
 const { withPostgres } = require('../src/util')
-const { getBoundaryIds, getBoundaries, createBoundaryTable } = require('../src')
+const {
+  getBoundaryIds,
+  getBoundaries,
+  createBoundaryTable,
+  buildReport
+} = require('../src')
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
-let testParams
-beforeAll(() => {
-  testParams = {
-    reportParams: {
-      collection: 'productboundaries',
-      find: {
-        clientid: 'atproperties',
-        boundaryType: 'county'
-      }
+const testParams = {
+  reportParams: {
+    collection: 'productboundaries',
+    find: {
+      clientid: 'atproperties',
+      boundaryType: 'county'
     },
-    sampleSize: 5,
-    boundaryTable: 'public.tmp_boundary_test'
-  }
-})
+    quarters: [
+      { quarterNumber: 1, year: 2021 },
+      { quarterNumber: 2, year: 2021 },
+      { quarterNumber: 3, year: 2021 }
+    ]
+  },
+  sampleSize: 3,
+  boundaryTable: 'public.tmp_boundary_test'
+}
 
 describe('setup for reports', () => {
   afterAll(async () => {
@@ -52,7 +60,7 @@ describe('setup for reports', () => {
     expect(data.length).toBeGreaterThan(0)
   }, 10000)
 
-  it.only('creates and inserts into tmp table', async () => {
+  it('creates and inserts into tmp table', async () => {
     expect.hasAssertions()
     const { boundaries } = fixtures
     const { sampleSize, boundaryTable } = testParams
@@ -61,7 +69,11 @@ describe('setup for reports', () => {
       await pgClient.query(`drop table if exists ${boundaryTable} cascade`)
     })
 
-    const tableName = await createBoundaryTable({ boundaryTable, boundaries, sampleSize })
+    const tableName = await createBoundaryTable({
+      boundaryTable,
+      boundaries,
+      sampleSize
+    })
 
     const data = await withPostgres(async (pgClient) => {
       const query = `select * from ${tableName}`
@@ -83,15 +95,25 @@ describe('setup for reports', () => {
   }, 10000)
 })
 
-describe('run reports', () => {
+describe.only('run reports', () => {
+  let { reportParams, sampleSize } = testParams
+
   beforeAll(async () => {
-    const { reportParams, sampleSize } = testParams
-    const boundaryIds = await getBoundaryIds(reportParams)
-    const boundaries = await getBoundaries({ boundaryIds })
-    const boundaryTable = await createBoundaryTable({ values })
-    console.log(boundaryTable)
+    reportParams = { ...reportParams, sampleSize }
   }, 60000)
+
   it('creates a report', async () => {
     expect.hasAssertions()
-  })
+    const reportTable = await buildReport(reportParams)
+
+    const data = await withPostgres(async (pgClient) => {
+      const query = `select * from ${reportTable}`
+      const { rows } = await pgClient.query(query)
+      return rows
+    })
+
+    expect(Array.isArray(data)).toBeTruthy()
+    expect(data.length).toBeGreaterThan(0)
+    console.log(data)
+  }, 30 * 60000)
 })
