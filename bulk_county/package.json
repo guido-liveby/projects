@@ -20,7 +20,6 @@
   "dependencies": {
     "@liveby/mongodb-connect": "^1.4.0",
     "@liveby/pg-connect": "^2.0.1",
-    "knex": "^0.95.11",
     "pg-format": "^1.0.4"
   },
   "standard": {

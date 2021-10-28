@@ -128,12 +128,12 @@ SELECT
       AND '2021-03-31' THEN
       1
     END) contracts_count,
-  to_char(avg(
+  avg(
       CASE WHEN "CloseDate" BETWEEN '2021-01-01'
         AND '2021-03-31'
         AND "StandardStatus" = 'Closed' THEN
         "DaysOnMarket"::float8
-      END), '999G999G999') avg_days_on_market,
+      END),  avg_days_on_market,
   median (
     CASE WHEN "CloseDate" BETWEEN '2021-01-01'
       AND '2021-03-31'
