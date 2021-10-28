@@ -1,5 +1,6 @@
 {
-  "devDependencies": {
+  "dependencies": {
+    "jest": "^27.3.1",
     "standard": "^16.0.4"
   },
   "standard": {
