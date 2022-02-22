@@ -1,0 +1,33 @@
+{
+  "name": "undefined",
+  "version": "1.0.0-0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test",
+    "bin": "bin"
+  },
+  "scripts": {
+    "start": "node ./lib/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [],
+  "private": true,
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^27.4.3",
+    "standard": "^16.0.4"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.49.0",
+    "genson-js": "^0.0.8",
+    "json-diff": "^0.7.1",
+    "ndjson": "^2.0.0"
+  }
+}

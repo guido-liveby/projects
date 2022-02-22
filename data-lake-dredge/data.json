@@ -1,0 +1,1213 @@
+
+> undefined@1.0.0-0 start
+> node ./lib/index.js
+
+{
+  "Contents": [
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:02:11.026Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"88bb1c876296b68f14dcb63ad65d5e1a\"",
+      "Size": 4149874,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:02:11.487Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"61d28dccc68e2178a7fb025aec592443\"",
+      "Size": 3881347,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:02:11.772Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"7a25ce4ec27abbd01a5c7a5d7a2a4687\"",
+      "Size": 4107235,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:02:36.314Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"800d132be804e407e7dcdb2508e98147\"",
+      "Size": 3860455,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:06:37.762Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"48167bd29e4271f788c7562622201e7e\"",
+      "Size": 4156975,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:07:07.861Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"8c5110f54f7a5db62cfbfe48b66d8fae\"",
+      "Size": 3907403,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:07:25.625Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"d5359939a437b5e1d0ef7a91a4a977f2\"",
+      "Size": 618407,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:08:27.291Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"15063784e56267ce561e91a5a7235c3a\"",
+      "Size": 369407,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:08:30.606Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"fa660a8ce23a3a4be2025d50fb6eaf3e\"",
+      "Size": 3723326,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:09:12.681Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"6d3f6818248bcaf6fc7a905a0c1ca41f\"",
+      "Size": 1552676,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:09:57.843Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"42f79267f1dcab9510f48c49f8b284d9\"",
+      "Size": 9406,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:09:59.004Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"50f34cb0fafcaa7cb9e6ac601e7c6fa5\"",
+      "Size": 2349960,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:10:10.497Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"b8e199dabc5c46ea411b49b2fa18662e\"",
+      "Size": 4065149,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:10:36.571Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"0fc1d7bd7a3a65aea36f910c99d7f5b6\"",
+      "Size": 4027267,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:10:59.506Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"a59c23a660ce7a2a75da2391f9824592\"",
+      "Size": 2331089,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:12:00.069Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"d3ef77c116e994e4df19ff278886f1a7\"",
+      "Size": 2048969,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:12:05.298Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"22d76eaab7e97bb7bfda2a72528e0824\"",
+      "Size": 3248013,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:12:59.223Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"f34fad348c817444d8aee4787c4d5627\"",
+      "Size": 607778,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:13:32.750Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"5af3c8783942297c4ddeb8efb42ce5e5\"",
+      "Size": 4098717,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:14:38.987Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"330638767d74d4ef2ce16f86b97ae857\"",
+      "Size": 928320,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:15:23.084Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"1ca767d0d03a6911e66a8aad8b8c468b\"",
+      "Size": 1061160,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:15:45.693Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"50142838de6c3f0ce21a9dc7b1ad83ce\"",
+      "Size": 2993901,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:16:31.442Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"d90ed0e2b47e16b8c7083e86ad7db8d2\"",
+      "Size": 4230960,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:16:39.193Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"ab42d76f069e076a3642058bf4ba333d\"",
+      "Size": 3194987,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:18:27.803Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"59143fb42f33c6b5c65e7178e4fc49cf\"",
+      "Size": 2470699,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:19:03.325Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"99557b4ee48250c5ac48f1861ca08c25\"",
+      "Size": 105298,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:19:08.329Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"b36fe660d25023ff468e6abf286472e0\"",
+      "Size": 2994876,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:19:41.823Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"57ea778c161ec19173ea25a64d5613ba\"",
+      "Size": 2870269,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:20:06.237Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"82e921d0db8939ee36cf9557708889d4\"",
+      "Size": 4333267,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:20:52.099Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"c070362419e04c26ac6a93e8f1ff14b2\"",
+      "Size": 2085964,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:20:57.415Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"082ca601bde500ddb7a3d0e773bcd5cd\"",
+      "Size": 2862775,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:21:30.727Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"bd8cdc21aa0e2b00444c1daaae515934\"",
+      "Size": 2268597,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:22:06.296Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"125d2291484d2adef3ee9034b83c717f\"",
+      "Size": 2670188,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:23:42.145Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"49593bd93253b5934817b0ef517a4764\"",
+      "Size": 2266895,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:24:01.232Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"3383a192ac853128142bc024e0f52adf\"",
+      "Size": 4182633,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:24:03.308Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"192fe2b9a50c4b5a1c2078508fe67834\"",
+      "Size": 2209125,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:24:56.475Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"a849420fd6721718aac17f58719134fc\"",
+      "Size": 4331280,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:25:23.364Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"373c3f8771761aea7f73e2082c077203\"",
+      "Size": 2221286,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:26:14.105Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"12362c3a920492ba9d08a7588385a722\"",
+      "Size": 2230263,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:26:38.084Z.json",
+      "LastModified": "2022-01-25T21:07:26.000Z",
+      "ETag": "\"d7c22717e9ac210325b7ee6352536ccd\"",
+      "Size": 2085564,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:27:20.757Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"dcf771db9043a25c8777649c93161597\"",
+      "Size": 797422,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:27:29.007Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"63ec91162315a01345e3020902dedd6c\"",
+      "Size": 4076810,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:27:37.933Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"16a611e846e3a8c001a498a45379d5a5\"",
+      "Size": 1382217,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:29:21.081Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"0466cf318a89a0c04f896dde3ac85029\"",
+      "Size": 967779,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:29:33.888Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"d04dccd2b109d6a5e0ca2d14da182f3e\"",
+      "Size": 3184726,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:31:53.150Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"b821d6f5ffd4f5af40f5503e18739708\"",
+      "Size": 1213625,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:32:41.610Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"3fdf72c34266c5a150ddde8770bfd0fa\"",
+      "Size": 3157294,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:33:48.696Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"c67ba80c3b2bb477e871077e0510b51e\"",
+      "Size": 3099076,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:34:24.404Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"3f7ff05d279f6b6ccaa8c7aeddf5b4c0\"",
+      "Size": 1712570,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:34:39.778Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"659c2710bbdbf7a7593b9fbdb03e9817\"",
+      "Size": 250119,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:34:41.428Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"5f074088729cd96928998a9448403605\"",
+      "Size": 2870707,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:36:25.292Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"d4c8dddd07116adfa370677ab9fed1f0\"",
+      "Size": 2795224,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:36:50.354Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"7b93c04d411abbb63b49d6aebf5eeabc\"",
+      "Size": 2619637,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:37:17.764Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"fbc66bf7a143495fe29732807a661dda\"",
+      "Size": 2596420,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:38:04.759Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"331fcba185fc5cf88e3c7a5dd7ed8b35\"",
+      "Size": 2733054,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:38:25.064Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"f740ff6c3359b15abf8cb7dd58526c54\"",
+      "Size": 2653188,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:39:00.402Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"3857e4dc81b4994274b88642c176dd35\"",
+      "Size": 2450080,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:39:22.075Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"251492965e93defb274ae3bb9582abe4\"",
+      "Size": 2190416,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:39:57.010Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"b07fe96c5e1a932cbe26692bd4956413\"",
+      "Size": 2199026,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:40:12.315Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"967f080ad6cdff9310f06c23de8c5d9e\"",
+      "Size": 2288338,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:40:42.822Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"9b2b879fecccb577207c88ea50d44c45\"",
+      "Size": 2297863,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:41:19.174Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"65a2088771d0c95503b51f0f4844e6cb\"",
+      "Size": 2559738,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:41:56.330Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"69c66da62876a2a2beb787c9a60562fa\"",
+      "Size": 2525872,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:42:14.947Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"0ae9e3fffa8623084497758a1112345a\"",
+      "Size": 2461584,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:42:42.923Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"c9cd0c27f858a9a5b569e2f32d69fe18\"",
+      "Size": 2395903,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:43:05.480Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"eb4d3b79981e25f4bcca204ed69cb708\"",
+      "Size": 2446502,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:43:27.970Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"28a0b64a32d080035db280046dcc9d2b\"",
+      "Size": 2258730,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:44:21.746Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"a7c811e2fbad7091e732efd537952a51\"",
+      "Size": 2278790,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:44:40.102Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"c288a502c7bf4722dd8f73e12796bea7\"",
+      "Size": 588981,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:44:45.101Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"c5d3e513d1b323a631843e24fc6fb077\"",
+      "Size": 2119281,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:47:31.739Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"f7961cf68aabfd2c15a0477fd4aa3aaf\"",
+      "Size": 2091985,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:47:58.907Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"da75517e068fd2a0152068ce22054d22\"",
+      "Size": 2278524,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:48:49.272Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"b2bb084d4b0a54589b2f8b7c5405b9c0\"",
+      "Size": 2003579,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:49:04.106Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"f7e4f54ba1a85bdef4fcc05248e0e493\"",
+      "Size": 2119267,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:49:26.229Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"bac12643e12fc34ee47b6638f364e4a0\"",
+      "Size": 2237645,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:50:11.616Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"4e3f6f6119a7d03ced2c36efdb17d524\"",
+      "Size": 2314645,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:50:32.997Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"fa97f6d305f51bd78014a25000da90cf\"",
+      "Size": 2097361,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:50:52.276Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"83e373e11be0cb7799a62e42f3da5b78\"",
+      "Size": 1936510,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:51:08.015Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"9c86c4c97717a260a3674d0eeb6ba593\"",
+      "Size": 1985345,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:51:30.214Z.json",
+      "LastModified": "2022-01-25T21:07:27.000Z",
+      "ETag": "\"1bb68b9047835f930164ffb551779128\"",
+      "Size": 2103249,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:51:46.864Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"8edfe878d0e58a18d410da5ad7696423\"",
+      "Size": 2017671,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:52:22.415Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"11d7aaa24cc8d2bf6710ffef2ffc4a21\"",
+      "Size": 1918833,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:52:40.453Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"f2c6095acc351a23aefd87c4f5e948cc\"",
+      "Size": 1941821,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:52:51.524Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"2a66aa961264113e1e6243727a4025f9\"",
+      "Size": 1967034,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:53:24.142Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"92994f2ec7f6eb1fb332566e223086fd\"",
+      "Size": 1958589,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:53:46.075Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"8b8ad1590914e228b534b3a76ee11ee1\"",
+      "Size": 1969834,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:53:58.109Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"20d44e6f0188b3a05661bc94946c0ed4\"",
+      "Size": 2001739,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:54:28.326Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"a85a2c1c9338b40b1619c1e4aeb8f926\"",
+      "Size": 1969373,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:54:59.136Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"6df9165326e5600fed16adba54abcf3c\"",
+      "Size": 1851460,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:55:20.111Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"aeed6d59bc5fe6be93bb0c0eadcc96af\"",
+      "Size": 1889905,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:55:55.441Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"cce3584a3ff3a53f4e8f33d5c7899581\"",
+      "Size": 1915287,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:56:11.236Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"f8e71157f09dff80453df72ac8b2fe96\"",
+      "Size": 1588440,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T20:56:36.474Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"c397b2f1aaa948a0e702215b26ad89c5\"",
+      "Size": 3619194,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:38:52.368Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"9fc62a936753e065d24bde1a909f910e\"",
+      "Size": 490059,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:38:52.771Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"8b305b6fcf0812b27864da139996d5b4\"",
+      "Size": 3942370,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:38:53.166Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"00f5e430da55a13f9780428ae216cb5f\"",
+      "Size": 1757233,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:39:18.501Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"69f80417f52fbc4692b065f7ea14354d\"",
+      "Size": 3117680,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:39:41.528Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"f424e842cf244c396ef538cb5103b9bd\"",
+      "Size": 70038,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:39:52.421Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"388e874b18a8fd55e24ef32c300e198f\"",
+      "Size": 1559468,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:40:32.778Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"a926145c440449cffae8840f33252fc4\"",
+      "Size": 9406,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:40:34.248Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"8ad71fc7010a3201e68c9bf5b0251f53\"",
+      "Size": 190265,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:40:35.246Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"7806caf1fea03faefbe76177a5aa7a01\"",
+      "Size": 2348040,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:40:46.349Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"706eefaa4637303cf8b6533ed13b9d53\"",
+      "Size": 3183943,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:41:06.660Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"493eef6c664378689a5f25a702a770bc\"",
+      "Size": 380875,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:41:15.774Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"4c0748c981e4feeab8f030bb1335e761\"",
+      "Size": 2321133,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:41:19.879Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"b9131fd53a5c2e3fd74098ca1bfdec40\"",
+      "Size": 2754918,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:41:22.706Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"b867cba50ff477848c63deabba6d72b1\"",
+      "Size": 2449712,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:41:45.570Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"f1863343834caa630d0534c5bc3496fe\"",
+      "Size": 105298,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:41:47.128Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"511171e3786e06efc6daef3cb6d2bdc3\"",
+      "Size": 2983473,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:41:50.654Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"f18d62621f2be4950e5004e34ed67d63\"",
+      "Size": 2059993,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:42:02.231Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"c5d72c20dcce36e9e86326579e19dcb0\"",
+      "Size": 649898,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:42:06.506Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"c568d24ad6b4ceb44e8ac9aed68ec59e\"",
+      "Size": 2890890,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:42:16.393Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"7fe2f442f0ada992c4f614200743336b\"",
+      "Size": 594112,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:42:18.636Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"9bb6356e18305b6c397f3658a2c47dbb\"",
+      "Size": 3166671,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:42:20.954Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"4aebff3308d589d8b9e6527e7d852c9a\"",
+      "Size": 2093592,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:42:48.503Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"beb7b674b3830b1c53b0af84beb7c129\"",
+      "Size": 2862775,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:42:52.096Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"cf8ba8c04108a059cf3a13e91d817d09\"",
+      "Size": 2266313,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:42:53.715Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"e821f90381a27144ff91fbfe79aa09a3\"",
+      "Size": 3089661,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:43:26.024Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"423f6a61ac3de2f55956b316b9d0f04f\"",
+      "Size": 2202465,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:43:29.226Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"36245c14eb52f0fa48f1c98eda40bfa1\"",
+      "Size": 1671337,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:43:33.452Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"ccfeffddcc56aadd2d381fc71703e413\"",
+      "Size": 2666021,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:43:39.039Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"83eb70a747fa5f651aff23860fe112ec\"",
+      "Size": 250119,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:43:40.649Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"71793cbb89ddc43b07d59fc5900f2e4b\"",
+      "Size": 2855503,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:43:43.891Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"09bd70d7ddeb066a897967bc7b355946\"",
+      "Size": 2227576,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:44:07.931Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"73eee3a688ebbfd6535c52485c6f89d1\"",
+      "Size": 2272016,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:44:11.544Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"bcda40a9bc92a31b50637dc785cd60df\"",
+      "Size": 2231305,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:44:17.069Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"c7cf712b7c036370611aae77b4424d87\"",
+      "Size": 2813226,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:44:23.517Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"76ad9540d2ca8ff837da41f572f085de\"",
+      "Size": 4319944,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:44:28.533Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"387367fe494eb453cb4cdad9c83fd12c\"",
+      "Size": 2088926,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:44:47.805Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"bcd5385f29460640184c14984c902bb6\"",
+      "Size": 2617710,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:45:00.347Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"c32705eec9cf44c4feddb6af1947992c\"",
+      "Size": 747098,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:45:07.406Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"7e935a72e6adf0db9a541fe9bbe109e3\"",
+      "Size": 2593416,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:45:07.787Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"40aa1a2f1aa3658faf1fafc9b02b89a9\"",
+      "Size": 1392921,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:45:36.952Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"cb9065a12a6dcb8efebd18bf691943d5\"",
+      "Size": 2728295,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:46:09.520Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"040d2c515e2e6989152242aab930900f\"",
+      "Size": 2665712,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:46:23.666Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"494abfb3323d710e8cdea6c9a69ced67\"",
+      "Size": 2448044,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:46:37.742Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"196b5823b76dbae21c0263c7abb60a6a\"",
+      "Size": 2187949,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:47:12.529Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"5f932a76a928f34d12917a64b7694013\"",
+      "Size": 2199510,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:47:29.639Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"67963bc42d0fab37725339deb384c5e6\"",
+      "Size": 2287026,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:48:01.508Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"d420153ecad2aeac510254f77dbf74b0\"",
+      "Size": 2309000,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:48:16.884Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"b348718d6b14f2e35c287e6e5983137b\"",
+      "Size": 2550656,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:48:45.026Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"b4837a176d40ca341413f0f5af033755\"",
+      "Size": 2519239,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:49:05.325Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"6ed54e3b52939e2c9d94e33051e734b1\"",
+      "Size": 2464705,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:49:22.018Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"a0d7d3e1865f3e2d85e1df492683988e\"",
+      "Size": 2395964,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:49:49.921Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"aabf64562d5acda0a9cb1ad5d5bc77d2\"",
+      "Size": 2447440,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:50:10.328Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"4ab6c38c64faa2fab2851a1c951a3a91\"",
+      "Size": 2250517,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:50:37.560Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"6450f0fd14ac2c11d4854ff1e733f02f\"",
+      "Size": 2274932,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:50:55.412Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"e08789264910257b8f2adbf7892d9da5\"",
+      "Size": 544480,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:51:09.187Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"2ebb1bdd5f5fe627b08617e216b79e54\"",
+      "Size": 2121063,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:51:38.666Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"daaf1c03b6edc379dfa1ce2987a9cafb\"",
+      "Size": 2082848,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:51:59.559Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"8e30a3b2613f56d8c5befe8158f5d90f\"",
+      "Size": 2262637,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:52:12.685Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"f4ac3d1a82b44ee04613e505dfdbda3b\"",
+      "Size": 2006708,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:52:20.437Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"273104b1a939ed39055355127394aa18\"",
+      "Size": 2132676,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:52:42.245Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"77d023153258348c6cf1b6a8a8071971\"",
+      "Size": 2211981,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:52:53.333Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"d5b77d90456114327368a4ea31fbd39c\"",
+      "Size": 2323623,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:53:09.432Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"100043f27eea57212bd03d7bda33ccc6\"",
+      "Size": 2127441,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:53:31.172Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"f725aafdb4b6924704925c88b5bab128\"",
+      "Size": 1934458,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:53:43.041Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"b5a4ea737160980d5544cd3e6e5d6027\"",
+      "Size": 1969555,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:54:07.501Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"bceb594baf6e68e2ece493514d6e9bf6\"",
+      "Size": 2109884,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:54:20.269Z.json",
+      "LastModified": "2022-01-25T21:07:28.000Z",
+      "ETag": "\"c6918c4a1a2809cc731b70b2d4a998a4\"",
+      "Size": 2014941,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:54:43.987Z.json",
+      "LastModified": "2022-01-25T21:07:29.000Z",
+      "ETag": "\"769f13f950a42cc53b25f409563afe46\"",
+      "Size": 1914621,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:54:53.764Z.json",
+      "LastModified": "2022-01-25T21:07:29.000Z",
+      "ETag": "\"0d4969a64fd85da2249a8fd610591b07\"",
+      "Size": 1963896,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:55:04.349Z.json",
+      "LastModified": "2022-01-25T21:07:29.000Z",
+      "ETag": "\"135c2ef4c9ff05a1f433f8b64d0af995\"",
+      "Size": 1953325,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:55:23.229Z.json",
+      "LastModified": "2022-01-25T21:07:29.000Z",
+      "ETag": "\"427bf848a7d6aeafd1bc263b77c5196b\"",
+      "Size": 1964230,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:55:36.280Z.json",
+      "LastModified": "2022-01-25T21:07:29.000Z",
+      "ETag": "\"0612f66f4eb5bcfac8a699342fe405d3\"",
+      "Size": 1968516,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:55:51.249Z.json",
+      "LastModified": "2022-01-25T21:07:29.000Z",
+      "ETag": "\"1075432187efffa521169aff38ab5f42\"",
+      "Size": 1998063,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:56:17.178Z.json",
+      "LastModified": "2022-01-25T21:07:29.000Z",
+      "ETag": "\"e81771b8361e5c59d70c50c375ede2f6\"",
+      "Size": 1976087,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:56:33.594Z.json",
+      "LastModified": "2022-01-25T21:07:29.000Z",
+      "ETag": "\"ee0e6fb4bc0e9d0ec56ff78770740020\"",
+      "Size": 1850627,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:56:57.735Z.json",
+      "LastModified": "2022-01-25T21:07:29.000Z",
+      "ETag": "\"71b68c174a4525cac56f96b3e9993bdd\"",
+      "Size": 1893064,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:57:08.803Z.json",
+      "LastModified": "2022-01-25T21:07:29.000Z",
+      "ETag": "\"b139721f0ee46430d4b1d5adf0f70086\"",
+      "Size": 1911140,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:57:37.000Z.json",
+      "LastModified": "2022-01-25T21:07:29.000Z",
+      "ETag": "\"f77df069ba85f94bf68e315cdaa2b3fb\"",
+      "Size": 1596766,
+      "StorageClass": "GLACIER_IR"
+    },
+    {
+      "Key": "property-history/vendor=bright/cacher=simply-rets/year=2021/month=04/day=15/2021-04-15T23:57:54.873Z.json",
+      "LastModified": "2022-01-25T21:07:29.000Z",
+      "ETag": "\"4489b51b23ecbef1693a0d3b80161fc9\"",
+      "Size": 3609418,
+      "StorageClass": "GLACIER_IR"
+    }
+  ],
+  "CommonPrefixes": []
+}
