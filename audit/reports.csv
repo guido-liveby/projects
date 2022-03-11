@@ -1,391 +1,442 @@
-region,district,city,neighborhood,quarter,year,volume,avg_sale_price,discount_ratio,total_sold,active_inventory,pending_sales,median_sale_price,list_ratio,days_on_market,avg_list_price
-Cape Cod,Lower Cape,Brewster,,4,2018,,"$534,982 ",,64,63,,"$436,950 ",97%,74,
-Cape Cod,Lower Cape,Brewster,,4,2019,,"$629,696 ",,34,52,,"$448,250 ",97%,86,
-Cape Cod,Lower Cape,Brewster,,4,2020,,"$754,701 ",,64,44,,"$636,250 ",100%,50,
-Cape Cod,Lower Cape,Brewster,,4,2021,,"$1,016,658 ",,48,6,,"$750,000 ",99%,25,
-Cape Cod,Lower Cape,Chatham,,4,2018,,"$1,453,317 ",,62,116,,"$700,500 ",95%,209,
-Cape Cod,Lower Cape,Chatham,,4,2019,,"$1,024,930 ",,53,122,,"$727,000 ",94%,192,
-Cape Cod,Lower Cape,Chatham,,4,2020,,"$1,384,231 ",,94,99,,"$973,750 ",97%,97,
-Cape Cod,Lower Cape,Chatham,,4,2021,,"$2,246,570 ",,58,24,,"$1,325,000 ",97%,31,
-Cape Cod,Lower Cape,Eastham,,4,2018,,"$519,817 ",,58,64,,"$477,500 ",96%,98,
-Cape Cod,Lower Cape,Eastham,,4,2019,,"$629,650 ",,53,56,,"$519,000 ",96%,99,
-Cape Cod,Lower Cape,Eastham,,4,2020,,"$661,753 ",,54,41,,"$588,500 ",99%,63,
-Cape Cod,Lower Cape,Eastham,,4,2021,,"$776,504 ",,47,6,,"$700,000 ",100%,22,
-Cape Cod,Lower Cape,Harwich,,4,2018,,"$560,189 ",,91,107,,"$400,000 ",94%,78,
-Cape Cod,Lower Cape,Harwich,,4,2019,,"$611,085 ",,79,75,,"$509,000 ",96%,101,
-Cape Cod,Lower Cape,Harwich,,4,2020,,"$751,457 ",,111,58,,"$540,000 ",99%,38,
-Cape Cod,Lower Cape,Harwich,,4,2021,,"$826,294 ",,77,7,,"$685,000 ",103%,17,
-Cape Cod,Lower Cape,Orleans,,4,2018,,"$769,888 ",,49,63,,"$652,000 ",97%,92,
-Cape Cod,Lower Cape,Orleans,,4,2019,,"$864,618 ",,34,76,,"$696,450 ",92%,120,
-Cape Cod,Lower Cape,Orleans,,4,2020,,"$1,187,920 ",,67,61,,"$775,000 ",96%,113,
-Cape Cod,Lower Cape,Orleans,,4,2021,,"$1,153,056 ",,31,23,,"$920,000 ",99%,38,
-Cape Cod,Mid Cape,Barnstable,,4,2018,,"$536,144 ",,215,284,,"$370,000 ",95%,96,
-Cape Cod,Mid Cape,Barnstable,,4,2019,,"$572,252 ",,199,237,,"$390,000 ",95%,84,
-Cape Cod,Mid Cape,Barnstable,,4,2020,,"$850,510 ",,290,198,,"$512,500 ",97%,63,
-Cape Cod,Mid Cape,Barnstable,,4,2021,,"$1,060,182 ",,218,66,,"$600,000 ",96%,34,
-Cape Cod,Mid Cape,Dennis,,4,2018,,"$402,708 ",,114,141,,"$345,400 ",95%,70,
-Cape Cod,Mid Cape,Dennis,,4,2019,,"$658,141 ",,103,80,,"$375,000 ",97%,62,
-Cape Cod,Mid Cape,Dennis,,4,2020,,"$604,378 ",,120,92,,"$452,500 ",99%,47,
-Cape Cod,Mid Cape,Dennis,,4,2021,,"$703,415 ",,88,19,,"$540,000 ",99%,27,
-Cape Cod,Mid Cape,Yarmouth,,4,2018,,"$370,876 ",,167,161,,"$326,900 ",97%,82,
-Cape Cod,Mid Cape,Yarmouth,,4,2019,,"$394,737 ",,124,120,,"$358,200 ",97%,79,
-Cape Cod,Mid Cape,Yarmouth,,4,2020,,"$513,627 ",,173,92,,"$410,000 ",98%,43,
-Cape Cod,Mid Cape,Yarmouth,,4,2021,,"$595,842 ",,143,25,,"$500,000 ",99%,19,
-Cape Cod,Upper Cape,Bourne,,4,2018,,"$468,862 ",,46,60,,"$337,000 ",95%,74,
-Cape Cod,Upper Cape,Bourne,,4,2019,,"$582,679 ",,53,43,,"$417,500 ",114%,105,
-Cape Cod,Upper Cape,Bourne,,4,2020,,"$650,200 ",,67,60,,"$468,500 ",98%,54,
-Cape Cod,Upper Cape,Bourne,,4,2021,,"$617,136 ",,50,14,,"$499,000 ",99%,34,
-Cape Cod,Upper Cape,Falmouth,,4,2018,,"$556,971 ",,169,169,,"$450,000 ",95%,80,
-Cape Cod,Upper Cape,Falmouth,,4,2019,,"$609,629 ",,142,131,,"$476,000 ",96%,102,
-Cape Cod,Upper Cape,Falmouth,,4,2020,,"$818,284 ",,194,98,,"$600,000 ",99%,57,
-Cape Cod,Upper Cape,Falmouth,,4,2021,,"$865,686 ",,123,31,,"$710,000 ",101%,29,
-Cape Cod,Upper Cape,Mashpee,,4,2018,,"$529,724 ",,114,112,,"$401,250 ",95%,119,
-Cape Cod,Upper Cape,Mashpee,,4,2019,,"$763,023 ",,69,88,,"$539,900 ",96%,116,
-Cape Cod,Upper Cape,Mashpee,,4,2020,,"$845,544 ",,99,106,,"$625,000 ",99%,73,
-Cape Cod,Upper Cape,Mashpee,,4,2021,,"$927,903 ",,64,36,,"$698,250 ",99%,28,
-Cape Cod,Upper Cape,Sandwich,,4,2018,,"$444,601 ",,103,117,,"$381,000 ",97%,78,
-Cape Cod,Upper Cape,Sandwich,,4,2019,,"$477,172 ",,83,94,,"$412,000 ",97%,90,
-Cape Cod,Upper Cape,Sandwich,,4,2020,,"$581,169 ",,115,62,,"$540,000 ",101%,42,
-Cape Cod,Upper Cape,Sandwich,,4,2021,,"$625,682 ",,101,14,,"$585,000 ",101%,16,
-Greater LA,Greater Los Angeles,Bel-Air / Holmby Hills,,4,2021,,,,55,,,"$3,500,000 ",-1.50%,50,
-Greater LA,Greater Los Angeles,Bel-Air / Holmby Hills,,4,2020,,,,60,,,"$2,682,500 ",-4.10%,59,
-Greater LA,Greater Los Angeles,Bel-Air / Holmby Hills,,4,2019,,,,48,,,"$2,817,000 ",-5.20%,90,
-Greater LA,Greater Los Angeles,Bel-Air / Holmby Hills,,4,2018,,,,38,,,"$2,645,000 ",-4.90%,67,
-Greater LA,Greater Los Angeles,Bel-Air / Holmby Hills,,4,2017,,,,46,,,"$2,575,000 ",-1.50%,60,
-Greater LA,Greater Los Angeles,Beverly Hills,,4,2021,,,,53,,,"$8,200,000 ",-2.60%,69,
-Greater LA,Greater Los Angeles,Beverly Hills,,4,2020,,,,28,,,"$7,087,500 ",-7.10%,68,
-Greater LA,Greater Los Angeles,Beverly Hills,,4,2019,,,,30,,,"$6,500,000 ",-6.50%,86,
-Greater LA,Greater Los Angeles,Beverly Hills,,4,2018,,,,26,,,"$5,027,500 ",-5.00%,84,
-Greater LA,Greater Los Angeles,Beverly Hills,,4,2017,,,,30,,,"$6,137,500 ",-7.10%,81,
-Greater LA,Greater Los Angeles,Beverly Hills Post Office,,4,2021,,,,43,,,"$3,400,000 ",-1.20%,85,
-Greater LA,Greater Los Angeles,Beverly Hills Post Office,,4,2020,,,,44,,,"$3,370,000 ",-1.80%,74,
-Greater LA,Greater Los Angeles,Beverly Hills Post Office,,4,2019,,,,39,,,"$2,765,000 ",-4.50%,97,
-Greater LA,Greater Los Angeles,Beverly Hills Post Office,,4,2018,,,,33,,,"$3,150,000 ",-5.10%,59,
-Greater LA,Greater Los Angeles,Beverly Hills Post Office,,4,2017,,,,34,,,"$3,405,000 ",-3.90%,86,
-Greater LA,Greater Los Angeles,Brentwood,,4,2021,,,,83,,,"$3,560,000 ",-1.00%,48,
-Greater LA,Greater Los Angeles,Brentwood,,4,2020,,,,83,,,"$3,160,000 ",-3.30%,51,
-Greater LA,Greater Los Angeles,Brentwood,,4,2019,,,,55,,,"$2,925,000 ",-4.10%,74,
-Greater LA,Greater Los Angeles,Brentwood,,4,2018,,,,52,,,"$3,100,000 ",-3.40%,67,
-Greater LA,Greater Los Angeles,Brentwood,,4,2017,,,,60,,,"$3,337,500 ",-0.40%,48,
-Greater LA,Greater Los Angeles,Downtown Los Angeles,,4,2021,,,,113,,,"$650,000 ",-1.40%,54,
-Greater LA,Greater Los Angeles,Downtown Los Angeles,,4,2020,,,,74,,,"$560,000 ",-2.70%,83,
-Greater LA,Greater Los Angeles,Downtown Los Angeles,,4,2019,,,,64,,,"$517,500 ",-1.90%,70,
-Greater LA,Greater Los Angeles,Downtown Los Angeles,,4,2018,,,,74,,,"$581,000 ",-1.70%,63,
-Greater LA,Greater Los Angeles,Downtown Los Angeles,,4,2017,,,,71,,,"$535,000 ",-0.50%,51,
-Greater LA,Greater Los Angeles,Encino,,4,2021,,,,113,,,"$2,052,000 ",2.20%,21,
-Greater LA,Greater Los Angeles,Encino,,4,2020,,,,158,,,"$1,687,500 ",-0.90%,34,
-Greater LA,Greater Los Angeles,Encino,,4,2019,,,,103,,,"$1,410,000 ",-2.10%,51,
-Greater LA,Greater Los Angeles,Encino,,4,2018,,,,103,,,"$1,305,000 ",-2.30%,54,
-Greater LA,Greater Los Angeles,Encino,,4,2017,,,,112,,,"$1,250,000 ",-1.00%,55,
-Greater LA,Greater Los Angeles,Hancock Park / Wilshire,,4,2021,,,,66,,,"$2,200,000 ",2.80%,20,
-Greater LA,Greater Los Angeles,Hancock Park / Wilshire,,4,2020,,,,95,,,"$1,735,000 ",-0.80%,44,
-Greater LA,Greater Los Angeles,Hancock Park / Wilshire,,4,2019,,,,57,,,"$1,740,000 ",-2.00%,62,
-Greater LA,Greater Los Angeles,Hancock Park / Wilshire,,4,2018,,,,58,,,"$1,658,000 ",-0.60%,65,
-Greater LA,Greater Los Angeles,Hancock Park / Wilshire,,4,2017,,,,65,,,"$1,690,000 ",-1.20%,38,
-Greater LA,Greater Los Angeles,Los Feliz,,4,2021,,,,67,,,"$1,805,000 ",5.70%,30,
-Greater LA,Greater Los Angeles,Los Feliz,,4,2020,,,,69,,,"$1,890,000 ",2.30%,42,
-Greater LA,Greater Los Angeles,Los Feliz,,4,2019,,,,48,,,"$1,787,500 ",3.30%,51,
-Greater LA,Greater Los Angeles,Los Feliz,,4,2018,,,,52,,,"$1,668,000 ",3.00%,43,
-Greater LA,Greater Los Angeles,Los Feliz,,4,2017,,,,47,,,"$1,720,000 ",1.50%,42,
-Greater LA,Greater Los Angeles,Malibu,,4,2021,,,,78,,,"$3,700,000 ",6.00%,58,
-Greater LA,Greater Los Angeles,Malibu,,4,2020,,,,88,,,"$4,410,000 ",-3.30%,70,
-Greater LA,Greater Los Angeles,Malibu,,4,2019,,,,37,,,"$3,400,000 ",-7.30%,104,
-Greater LA,Greater Los Angeles,Malibu,,4,2018,,,,35,,,"$3,137,500 ",-6.00%,185,
-Greater LA,Greater Los Angeles,Malibu,,4,2017,,,,51,,,"$2,441,350 ",-5.60%,128,
-Greater LA,Greater Los Angeles,Pacific Palisades,,4,2021,,,,90,,,"$4,107,500 ",0.10%,37,
-Greater LA,Greater Los Angeles,Pacific Palisades,,4,2020,,,,88,,,"$3,274,000 ",-1.20%,43,
-Greater LA,Greater Los Angeles,Pacific Palisades,,4,2019,,,,63,,,"$3,400,000 ",-2.60%,66,
-Greater LA,Greater Los Angeles,Pacific Palisades,,4,2018,,,,63,,,"$3,436,000 ",-2.90%,50,
-Greater LA,Greater Los Angeles,Pacific Palisades,,4,2017,,,,55,,,"$3,340,000 ",-2.10%,57,
-Greater LA,Greater Los Angeles,Santa Monica,,4,2021,,,,88,,,"$3,475,000 ",1.30%,33,
-Greater LA,Greater Los Angeles,Santa Monica,,4,2020,,,,61,,,"$2,950,000 ",-0.90%,42,
-Greater LA,Greater Los Angeles,Santa Monica,,4,2019,,,,66,,,"$3,085,500 ",-1.70%,55,
-Greater LA,Greater Los Angeles,Santa Monica,,4,2018,,,,43,,,"$2,795,000 ",-2.00%,50,
-Greater LA,Greater Los Angeles,Santa Monica,,4,2017,,,,54,,,"$3,450,500 ",-0.90%,41,
-Greater LA,Greater Los Angeles,Silver Lake / Echo Park,,4,2021,,,,87,,,"$1,453,000 ",9.10%,18,
-Greater LA,Greater Los Angeles,Silver Lake / Echo Park,,4,2020,,,,127,,,"$1,250,000 ",2.80%,39,
-Greater LA,Greater Los Angeles,Silver Lake / Echo Park,,4,2019,,,,92,,,"$1,150,034 ",2.40%,48,
-Greater LA,Greater Los Angeles,Silver Lake / Echo Park,,4,2018,,,,86,,,"$1,100,750 ",3.40%,43,
-Greater LA,Greater Los Angeles,Silver Lake / Echo Park,,4,2017,,,,93,,,"$1,089,000 ",3.90%,37,
-Greater LA,Greater Los Angeles,Sunset Strip/Hollywood Hills,,4,2021,,,,148,,,"$2,500,000 ",0.90%,44,
-Greater LA,Greater Los Angeles,Sunset Strip/Hollywood Hills,,4,2020,,,,131,,,"$2,041,170 ",-2.90%,49,
-Greater LA,Greater Los Angeles,Sunset Strip/Hollywood Hills,,4,2019,,,,123,,,"$1,700,000 ",-2.80%,63,
-Greater LA,Greater Los Angeles,Sunset Strip/Hollywood Hills,,4,2018,,,,78,,,"$1,824,500 ",-2.00%,80,
-Greater LA,Greater Los Angeles,Sunset Strip/Hollywood Hills,,4,2017,,,,116,,,"$1,820,500 ",-2.00%,71,
-Greater LA,Greater Los Angeles,Toluca Lake,,4,2021,,,,29,,,"$1,900,000 ",1.20%,19,
-Greater LA,Greater Los Angeles,Toluca Lake,,4,2020,,,,22,,,"$1,292,500 ",2.50%,39,
-Greater LA,Greater Los Angeles,Toluca Lake,,4,2019,,,,11,,,"$1,193,750 ",-2.10%,64,
-Greater LA,Greater Los Angeles,Toluca Lake,,4,2018,,,,16,,,"$1,162,500 ",-1.00%,61,
-Greater LA,Greater Los Angeles,Toluca Lake,,4,2017,,,,14,,,"$1,435,000 ",0.60%,69,
-Greater LA,Greater Los Angeles,Topanga,,4,2021,,,,21,,,"$1,921,250 ",2.00%,39,
-Greater LA,Greater Los Angeles,Topanga,,4,2020,,,,43,,,"$1,590,000 ",0.80%,47,
-Greater LA,Greater Los Angeles,Topanga,,4,2019,,,,24,,,"$1,287,000 ",-0.60%,54,
-Greater LA,Greater Los Angeles,Topanga,,4,2018,,,,16,,,"$1,094,750 ",-1.10%,98,
-Greater LA,Greater Los Angeles,Topanga,,4,2017,,,,20,,,"$880,000 ",-2.20%,72,
-Greater LA,Greater Los Angeles,Venice,,4,2021,,,,79,,,"$2,520,000 ",-1.50%,49,
-Greater LA,Greater Los Angeles,Venice,,4,2020,,,,66,,,"$2,007,500 ",-2.70%,57,
-Greater LA,Greater Los Angeles,Venice,,4,2019,,,,44,,,"$2,061,000 ",-3.00%,54,
-Greater LA,Greater Los Angeles,Venice,,4,2018,,,,48,,,"$1,900,000 ",-3.20%,51,
-Greater LA,Greater Los Angeles,Venice,,4,2017,,,,52,,,"$1,962,500 ",-1.90%,47,
-Greater LA,Greater Los Angeles,West Hollywood,,4,2021,,,,50,,,"$2,710,000 ",0.50%,37,
-Greater LA,Greater Los Angeles,West Hollywood,,4,2020,,,,38,,,"$2,192,500 ",-1.90%,53,
-Greater LA,Greater Los Angeles,West Hollywood,,4,2019,,,,29,,,"$1,968,000 ",-2.20%,63,
-Greater LA,Greater Los Angeles,West Hollywood,,4,2018,,,,23,,,"$1,750,000 ",-1.40%,38,
-Greater LA,Greater Los Angeles,West Hollywood,,4,2017,,,,35,,,"$1,667,500 ",-0.30%,61,
-Greater LA,Greater Los Angeles,Woodland Hills,,4,2021,,,,239,,,"$1,245,000 ",3.40%,22,
-Greater LA,Greater Los Angeles,Woodland Hills,,4,2020,,,,250,,,"$1,050,000 ",1.60%,25,
-Greater LA,Greater Los Angeles,Woodland Hills,,4,2019,,,,187,,,"$915,000 ",-1.60%,51,
-Greater LA,Greater Los Angeles,Woodland Hills,,4,2018,,,,146,,,"$884,500 ",-1.80%,54,
-Greater LA,Greater Los Angeles,Woodland Hills,,4,2017,,,,189,,,"$829,000 ",-0.60%,63,
-Greater Ventura County,,Agoura Hills,,4,2017,,"$1,095,486 ",,43,,,"$1,040,000 ",2%,54,"$1,119,730 "
-Greater Ventura County,,Agoura Hills,,4,2018,,"$1,222,838 ",,51,,,"$1,025,000 ",3%,70,"$1,261,545 "
-Greater Ventura County,,Agoura Hills,,4,2019,,"$1,077,582 ",,43,,,"$880,000 ",1%,51,"$1,093,756 "
-Greater Ventura County,,Agoura Hills,,4,2020,,"$1,226,599 ",,72,,,"$1,075,000 ",1%,39,"$1,233,737 "
-Greater Ventura County,,Agoura Hills,,4,2021,,"$1,205,818 ",,84,,,"$978,758 ",-1%,45,"$1,196,100 "
-Greater Ventura County,,Calabasas,,4,2017,,"$1,668,880 ",,50,,,"$1,440,000 ",3%,80,"$1,719,596 "
-Greater Ventura County,,Calabasas,,4,2018,,"$1,727,686 ",,49,,,"$1,515,000 ",5%,66,"$1,816,456 "
-Greater Ventura County,,Calabasas,,4,2019,,"$1,724,236 ",,73,,,"$1,450,000 ",4%,68,"$1,801,324 "
-Greater Ventura County,,Calabasas,,4,2020,,"$1,982,484 ",,93,,,"$1,675,000 ",3%,45,"$2,049,204 "
-Greater Ventura County,,Calabasas,,4,2021,,"$1,781,368 ",,94,,,"$1,597,100 ",-2%,32,"$1,744,458 "
-Greater Ventura County,,Camarillo,,4,2017,,"$790,350 ",,184,,,"$650,000 ",2%,62,"$808,288 "
-Greater Ventura County,,Camarillo,,4,2018,,"$696,716 ",,186,,,"$629,000 ",2%,66,"$712,734 "
-Greater Ventura County,,Camarillo,,4,2019,,"$766,950 ",,211,,,"$650,000 ",2%,66,"$784,823 "
-Greater Ventura County,,Camarillo,,4,2020,,"$908,696 ",,211,,,"$725,000 ",1%,37,"$915,916 "
-Greater Ventura County,,Camarillo,,4,2021,,"$817,872 ",,98,,,"$808,000 ",-1%,19,"$806,227 "
-Greater Ventura County,,Channel Islands (Oxnard),,4,2017,,"$1,200,941 ",,42,,,"$1,007,500 ",3%,89,"$1,241,720 "
-Greater Ventura County,,Channel Islands (Oxnard),,4,2018,,"$1,628,844 ",,32,,,"$1,225,000 ",5%,118,"$1,720,311 "
-Greater Ventura County,,Channel Islands (Oxnard),,4,2019,,"$983,293 ",,61,,,"$800,000 ",4%,90,"$1,022,962 "
-Greater Ventura County,,Channel Islands (Oxnard),,4,2020,,"$1,217,469 ",,102,,,"$946,150 ",1%,47,"$1,234,634 "
-Greater Ventura County,,Channel Islands (Oxnard),,4,2021,,"$1,384,075 ",,103,,,"$1,129,477 ",1%,29,"$1,403,013 "
-Greater Ventura County,,Lake Sherwood,,4,2017,,"$3,562,536 ",,14,,,"$3,725,000 ",8%,89,"$3,852,500 "
-Greater Ventura County,,Lake Sherwood,,4,2018,,"$4,977,000 ",,5,,,"$4,575,000 ",5%,168,"$5,254,000 "
-Greater Ventura County,,Lake Sherwood,,4,2019,,"$2,716,800 ",,5,,,"$3,285,000 ",2%,103,"$2,759,800 "
-Greater Ventura County,,Lake Sherwood,,4,2020,,"$3,787,031 ",,8,,,"$3,725,000 ",5%,140,"$4,004,125 "
-Greater Ventura County,,Lake Sherwood,,4,2021,,"$2,726,756 ",,4,,,"$2,800,000 ",3%,18,"$2,823,250 "
-Greater Ventura County,,Moorpark / Simi Valley,,4,2017,,"$680,891 ",,413,,,"$605,000 ",1%,56,"$689,639 "
-Greater Ventura County,,Moorpark / Simi Valley,,4,2018,,"$679,772 ",,363,,,"$620,000 ",2%,56,"$691,974 "
-Greater Ventura County,,Moorpark / Simi Valley,,4,2019,,"$709,302 ",,382,,,"$642,000 ",1%,53,"$716,899 "
-Greater Ventura County,,Moorpark / Simi Valley,,4,2020,,"$808,888 ",,499,,,"$720,000 ",-1%,34,"$797,516 "
-Greater Ventura County,,Moorpark / Simi Valley,,4,2021,,"$958,919 ",,106,,,"$876,000 ",-1%,29,"$948,561 "
-Greater Ventura County,,Oak Park,,4,2017,,"$897,623 ",,26,,,"$843,000 ",1%,48,"$907,544 "
-Greater Ventura County,,Oak Park,,4,2018,,"$1,127,889 ",,18,,,"$1,029,000 ",2%,45,"$1,145,328 "
-Greater Ventura County,,Oak Park,,4,2019,,"$995,447 ",,29,,,"$900,000 ",2%,63,"$1,011,183 "
-Greater Ventura County,,Oak Park,,4,2020,,"$1,028,585 ",,40,,,"$922,500 ",0%,33,"$1,029,979 "
-Greater Ventura County,,Oak Park,,4,2021,,"$1,105,260 ",,48,,,"$1,075,000 ",-1%,30,"$1,095,910 "
-Greater Ventura County,,Thousand Oaks / Newbury Park,,4,2017,,"$838,527 ",,262,,,"$767,000 ",1%,60,"$850,556 "
-Greater Ventura County,,Thousand Oaks / Newbury Park,,4,2018,,"$880,209 ",,236,,,"$757,000 ",2%,63,"$894,324 "
-Greater Ventura County,,Thousand Oaks / Newbury Park,,4,2019,,"$966,713 ",,248,,,"$800,250 ",6%,62,"$1,024,834 "
-Greater Ventura County,,Thousand Oaks / Newbury Park,,4,2020,,"$992,354 ",,339,,,"$862,000 ",1%,38,"$998,455 "
-Greater Ventura County,,Thousand Oaks / Newbury Park,,4,2021,,"$1,060,388 ",,277,,,"$940,000 ",-1%,36,"$1,053,067 "
-Greater Ventura County,,Ventura,,4,2017,,"$683,848 ",,161,,,"$615,000 ",2%,69,"$696,310 "
-Greater Ventura County,,Ventura,,4,2018,,"$837,721 ",,174,,,"$651,950 ",2%,68,"$858,857 "
-Greater Ventura County,,Ventura,,4,2019,,"$789,937 ",,170,,,"$646,750 ",3%,62,"$816,854 "
-Greater Ventura County,,Ventura,,4,2020,,"$919,178 ",,278,,,"$735,250 ",1%,27,"$931,173 "
-Greater Ventura County,,Ventura,,4,2021,,"$881,394 ",,91,,,"$825,000 ",-2%,21,"$861,747 "
-Greater Ventura County,,Westlake Village,,4,2017,,"$1,556,836 ",,72,,,"$1,317,500 ",5%,75,"$1,639,898 "
-Greater Ventura County,,Westlake Village,,4,2018,,"$1,482,541 ",,67,,,"$1,185,000 ",6%,69,"$1,577,260 "
-Greater Ventura County,,Westlake Village,,4,2019,,"$1,649,205 ",,74,,,"$1,305,000 ",3%,51,"$1,696,276 "
-Greater Ventura County,,Westlake Village,,4,2020,,"$1,891,415 ",,101,,,"$1,565,000 ",4%,51,"$1,967,597 "
-Greater Ventura County,,Westlake Village,,4,2021,,"$1,581,989 ",,131,,,"$1,230,000 ",-1%,34,"$1,597,511 "
-Greenwich,townwide,,,4,2021,3000000000,"$3,005,856 ",96%,"1,007",151,54,,,,
-Greenwich,townwide,,,4,2020,2300000000,"$2,669,962 ",92%,862,287,77,,,,
-Greenwich,townwide,,,4,2019,1300000000,"$2,376,330 ",88%,528,432,27,,,,
-Greenwich,townwide,,,4,2018,1400000000,"$2,393,007 ",91%,594,718,32,,,,
-Greenwich,townwide,,,4,2017,1500000000,"$2,574,994 ",90%,572,638,,,,,
-Greenwich,Greenwich Proper,,,4,2021,2000000000,"$3,470,331 ",95%,581,129,35,,,,
-Greenwich,Greenwich Proper,,,4,2020,1500000000,"$3,012,050 ",90%,503,225,49,,,,
-Greenwich,Greenwich Proper,,,4,2019,790000000,"$2,742,470 ",86%,288,312,16,,,,
-Greenwich,Greenwich Proper,,,4,2018,851000000,"$2,685,486 ",90%,317,487,16,,,,
-Greenwich,Greenwich Proper,,,4,2017,957000000,"$2,919,119 ",89%,328,433,,,,,
-Greenwich,Greenwich,Cos Cob,,4,2021,,,,,,,,,,
-,,,,4,2020,,,,,,,,,,
-,,,,4,2019,,,,,,,,,,
-,,,,4,2018,,,,,,,,,,
-,,,,4,2017,,,,,,,,,,
-Greenwich,Greenwich,Greenwich,,4,2021,,,,,,,,,,
-,,,,4,2020,,,,,,,,,,
-,,,,4,2019,,,,,,,,,,
-,,,,4,2018,,,,,,,,,,
-,,,,4,2017,,,,,,,,,,
-Greenwich,Greenwich,Greenwich Proper,,4,2021,,,,,,,,,,
-,,,,4,2020,,,,,,,,,,
-,,,,4,2019,,,,,,,,,,
-,,,,4,2018,,,,,,,,,,
-,,,,4,2017,,,,,,,,,,
-Greenwich,Greenwich,Old Greenwich,,4,2021,,,,,,,,,,
-,,,,4,2020,,,,,,,,,,
-,,,,4,2019,,,,,,,,,,
-,,,,4,2018,,,,,,,,,,
-,,,,4,2017,,,,,,,,,,
-Greenwich,Greenwich,Riverside,,4,2021,,,,,,,,,,
-,,,,4,2020,,,,,,,,,,
-,,,,4,2019,,,,,,,,,,
-,,,,4,2018,,,,,,,,,,
-,,,,4,2017,,,,,,,,,,
-Houston,,Atascocita Area,,4,2017,,"$263,773 ",,"1,606",,,"$239,000 ",94%,86,"$279,420 "
-Houston,,Atascocita Area,,4,2018,,"$274,164 ",,"1,657",,,"$250,000 ",96%,97,"$286,418 "
-Houston,,Atascocita Area,,4,2019,,"$283,064 ",,"1,873",,,"$264,000 ",96%,87,"$295,876 "
-Houston,,Atascocita Area,,4,2020,,"$293,024 ",,"2,384",,,"$267,500 ",95%,78,"$308,709 "
-Houston,,Atascocita Area,,4,2021,,"$339,840 ",,"2,380",,,"$311,918 ",99%,38,"$342,945 "
-Houston,,Bellaire,,4,2017,,"$946,833 ",,263,,,"$890,500 ",92%,103,"$1,026,803 "
-Houston,,Bellaire,,4,2018,,"$887,668 ",,269,,,"$847,500 ",91%,126,"$971,548 "
-Houston,,Bellaire,,4,2019,,"$890,571 ",,234,,,"$852,500 ",91%,153,"$973,939 "
-Houston,,Bellaire,,4,2020,,"$934,439 ",,271,,,"$860,000 ",93%,171,"$1,009,143 "
-Houston,,Bellaire,,4,2021,,"$963,328 ",,349,,,"$915,000 ",94%,126,"$1,024,261 "
-Houston,,Braeswood Place,,4,2017,,"$813,306 ",,123,,,"$680,020 ",93%,125,"$876,647 "
-Houston,,Braeswood Place,,4,2018,,"$739,290 ",,130,,,"$550,000 ",93%,91,"$794,037 "
-Houston,,Braeswood Place,,4,2019,,"$877,378 ",,86,,,"$799,275 ",93%,149,"$940,439 "
-Houston,,Braeswood Place,,4,2020,,"$863,015 ",,79,,,"$678,000 ",94%,103,"$915,841 "
-Houston,,Braeswood Place,,4,2021,,"$1,062,700 ",,124,,,"$1,067,723 ",96%,118,"$1,101,541 "
-Houston,,Briargrove Park / Walnut Bend,,4,2017,,"$472,970 ",,191,,,"$439,000 ",94%,94,"$504,238 "
-Houston,,Briargrove Park / Walnut Bend,,4,2018,,"$435,964 ",,192,,,"$420,500 ",93%,83,"$468,548 "
-Houston,,Briargrove Park / Walnut Bend,,4,2019,,"$467,722 ",,166,,,"$451,000 ",92%,131,"$506,821 "
-Houston,,Briargrove Park / Walnut Bend,,4,2020,,"$494,883 ",,214,,,"$457,500 ",94%,107,"$527,672 "
-Houston,,Briargrove Park / Walnut Bend,,4,2021,,"$527,191 ",,224,,,"$518,500 ",97%,72,"$544,436 "
-Houston,,Central Area,,4,2017,,"$673,524 ",,355,,,"$600,000 ",94%,133,"$713,596 "
-Houston,,Central Area,,4,2018,,"$698,925 ",,391,,,"$600,000 ",94%,124,"$746,384 "
-Houston,,Central Area,,4,2019,,"$713,920 ",,365,,,"$645,000 ",95%,137,"$747,611 "
-Houston,,Central Area,,4,2020,,"$712,078 ",,396,,,"$626,655 ",95%,155,"$747,293 "
-Houston,,Central Area,,4,2021,,"$746,609 ",,536,,,"$653,720 ",96%,120,"$780,513 "
-Houston,,Clear Lake,,4,2017,,"$280,071 ",,"1,089",,,"$245,000 ",92%,60,"$303,321 "
-Houston,,Clear Lake,,4,2018,,"$300,829 ",,"1,120",,,"$265,000 ",96%,60,"$314,877 "
-Houston,,Clear Lake,,4,2019,,"$303,261 ",,"1,170",,,"$264,000 ",96%,66,"$315,938 "
-Houston,,Clear Lake,,4,2020,,"$324,532 ",,"1,297",,,"$285,000 ",94%,62,"$343,622 "
-Houston,,Clear Lake,,4,2021,,"$357,035 ",,"1,310",,,"$315,000 ",98%,31,"$364,762 "
-Houston,,Cypress South Area,,4,2017,,"$236,318 ",,"4,077",,,"$209,000 ",95%,69,"$248,733 "
-Houston,,Cypress South Area,,4,2018,,"$252,013 ",,"4,053",,,"$220,000 ",95%,81,"$264,469 "
-Houston,,Cypress South Area,,4,2019,,"$265,998 ",,"4,154",,,"$233,950 ",96%,61,"$276,225 "
-Houston,,Cypress South Area,,4,2020,,"$280,278 ",,"4,593",,,"$249,000 ",97%,49,"$288,647 "
-Houston,,Cypress South Area,,4,2021,,"$325,347 ",,"4,821",,,"$285,490 ",101%,20,"$322,345 "
-Houston,,East End Revitalized,,4,2017,,"$257,218 ",,324,,,"$269,450 ",93%,72,"$275,697 "
-Houston,,East End Revitalized,,4,2018,,"$268,747 ",,377,,,"$285,000 ",94%,98,"$284,786 "
-Houston,,East End Revitalized,,4,2019,,"$291,389 ",,405,,,"$297,000 ",95%,82,"$306,289 "
-Houston,,East End Revitalized,,4,2020,,"$293,451 ",,387,,,"$298,000 ",96%,91,"$306,150 "
-Houston,,East End Revitalized,,4,2021,,"$318,807 ",,562,,,"$328,250 ",97%,79,"$330,057 "
-Houston,,Energy Corridor,,4,2017,,"$401,296 ",,550,,,"$355,000 ",93%,96,"$429,824 "
-Houston,,Energy Corridor,,4,2018,,"$380,535 ",,596,,,"$334,250 ",93%,97,"$410,362 "
-Houston,,Energy Corridor,,4,2019,,"$387,712 ",,609,,,"$334,900 ",93%,122,"$415,193 "
-Houston,,Energy Corridor,,4,2020,,"$387,570 ",,695,,,"$340,000 ",94%,121,"$413,482 "
-Houston,,Energy Corridor,,4,2021,,"$444,455 ",,792,,,"$382,750 ",97%,67,"$456,849 "
-Houston,,Friendswood,,4,2017,,"$313,446 ",,771,,,"$250,000 ",94%,55,"$332,080 "
-Houston,,Friendswood,,4,2018,,"$314,460 ",,878,,,"$255,000 ",94%,58,"$334,280 "
-Houston,,Friendswood,,4,2019,,"$343,446 ",,867,,,"$282,000 ",95%,69,"$359,888 "
-Houston,,Friendswood,,4,2020,,"$363,181 ",,866,,,"$294,950 ",95%,54,"$384,044 "
-Houston,,Friendswood,,4,2021,,"$413,129 ",,911,,,"$334,000 ",97%,25,"$424,675 "
-Houston,,Greater Heights Area,,4,2017,,"$543,006 ",,"1,227",,,"$465,000 ",95%,98,"$570,726 "
-Houston,,Greater Heights Area,,4,2018,,"$578,602 ",,"1,299",,,"$500,000 ",95%,96,"$607,115 "
-Houston,,Greater Heights Area,,4,2019,,"$592,312 ",,"1,294",,,"$515,000 ",96%,87,"$614,673 "
-Houston,,Greater Heights Area,,4,2020,,"$604,666 ",,"1,397",,,"$520,000 ",96%,74,"$626,686 "
-Houston,,Greater Heights Area,,4,2021,,"$653,345 ",,"1,640",,,"$552,210 ",98%,62,"$668,336 "
-Houston,,Hockley,,4,2017,,"$225,045 ",,312,,,"$196,000 ",95%,68,"$237,984 "
-Houston,,Hockley,,4,2018,,"$230,356 ",,352,,,"$203,900 ",96%,132,"$239,940 "
-Houston,,Hockley,,4,2019,,"$236,030 ",,523,,,"$214,900 ",96%,78,"$246,570 "
-Houston,,Hockley,,4,2020,,"$255,567 ",,482,,,"$231,900 ",97%,61,"$263,471 "
-Houston,,Hockley,,4,2021,,"$296,320 ",,617,,,"$265,900 ",98%,35,"$301,133 "
-Houston,,Katy Area,,4,2017,,"$347,738 ",,"3,633",,,"$315,000 ",91%,89,"$380,173 "
-Houston,,Katy Area,,4,2018,,"$351,703 ",,"3,684",,,"$320,000 ",95%,98,"$370,582 "
-Houston,,Katy Area,,4,2019,,"$361,123 ",,"3,905",,,"$325,000 ",95%,88,"$380,376 "
-Houston,,Katy Area,,4,2020,,"$375,710 ",,"4,490",,,"$339,332 ",96%,71,"$392,443 "
-Houston,,Katy Area,,4,2021,,"$440,806 ",,"4,751",,,"$397,500 ",100%,29,"$439,034 "
-Houston,,Kingwood Area,,4,2017,,"$277,274 ",,"1,398",,,"$240,500 ",94%,71,"$294,578 "
-Houston,,Kingwood Area,,4,2018,,"$270,503 ",,"1,335",,,"$239,900 ",94%,67,"$287,191 "
-Houston,,Kingwood Area,,4,2019,,"$281,354 ",,"1,448",,,"$254,450 ",94%,82,"$300,340 "
-Houston,,Kingwood Area,,4,2020,,"$290,699 ",,"1,867",,,"$254,000 ",89%,77,"$326,294 "
-Houston,,Kingwood Area,,4,2021,,"$336,767 ",,"1,873",,,"$290,000 ",98%,33,"$342,374 "
-Houston,,Lake Conroe,,4,2017,,"$289,235 ",,"1,730",,,"$234,900 ",93%,124,"$309,609 "
-Houston,,Lake Conroe,,4,2018,,"$298,577 ",,"1,804",,,"$245,000 ",94%,133,"$317,620 "
-Houston,,Lake Conroe,,4,2019,,"$318,297 ",,"1,967",,,"$253,000 ",93%,114,"$343,072 "
-Houston,,Lake Conroe,,4,2020,,"$334,993 ",,"2,517",,,"$265,000 ",95%,103,"$352,549 "
-Houston,,Lake Conroe,,4,2021,,"$374,745 ",,"2,746",,,"$299,000 ",98%,50,"$381,815 "
-Houston,,League City,,4,2017,,"$283,341 ",,"1,991",,,"$261,000 ",95%,60,"$297,889 "
-Houston,,League City,,4,2018,,"$287,729 ",,"1,971",,,"$267,000 ",96%,68,"$300,463 "
-Houston,,League City,,4,2019,,"$294,816 ",,"2,081",,,"$273,000 ",93%,65,"$315,703 "
-Houston,,League City,,4,2020,,"$322,075 ",,"2,110",,,"$292,700 ",97%,56,"$332,429 "
-Houston,,League City,,4,2021,,"$360,421 ",,"2,096",,,"$325,000 ",98%,29,"$366,318 "
-Houston,,Magnolia Area,,4,2017,,"$348,941 ",,"1,009",,,"$284,500 ",92%,112,"$379,789 "
-Houston,,Magnolia Area,,4,2018,,"$341,750 ",,"1,038",,,"$289,000 ",95%,111,"$360,722 "
-Houston,,Magnolia Area,,4,2019,,"$353,003 ",,"1,120",,,"$294,998 ",95%,105,"$372,809 "
-Houston,,Magnolia Area,,4,2020,,"$371,764 ",,"1,418",,,"$315,450 ",96%,84,"$385,976 "
-Houston,,Magnolia Area,,4,2021,,"$430,794 ",,"1,588",,,"$337,500 ",98%,48,"$439,760 "
-Houston,,Medical / Museum District Area,,4,2017,,"$839,912 ",,290,,,"$652,500 ",92%,102,"$909,149 "
-Houston,,Medical / Museum District Area,,4,2018,,"$814,162 ",,261,,,"$690,000 ",93%,111,"$874,985 "
-Houston,,Medical / Museum District Area,,4,2019,,"$778,435 ",,290,,,"$601,250 ",93%,126,"$840,546 "
-Houston,,Medical / Museum District Area,,4,2020,,"$798,385 ",,368,,,"$530,000 ",93%,124,"$854,995 "
-Houston,,Medical / Museum District Area,,4,2021,,"$773,699 ",,479,,,"$500,000 ",96%,96,"$809,408 "
-Houston,,Memorial Close-In,,4,2017,,"$2,103,625 ",,28,,,"$1,257,750 ",83%,159,"$2,528,729 "
-Houston,,Memorial Close-In,,4,2018,,"$2,089,745 ",,37,,,"$1,930,000 ",86%,217,"$2,424,000 "
-Houston,,Memorial Close-In,,4,2019,,"$1,728,435 ",,22,,,"$1,655,000 ",83%,151,"$2,073,814 "
-Houston,,Memorial Close-In,,4,2020,,"$2,242,130 ",,38,,,"$1,652,975 ",89%,232,"$2,518,024 "
-Houston,,Memorial Close-In,,4,2021,,"$2,288,331 ",,46,,,"$2,130,000 ",91%,135,"$2,523,204 "
-Houston,,Memorial Park / Washington Corridor Area,,4,2017,,"$529,441 ",,392,,,"$439,900 ",94%,122,"$562,622 "
-Houston,,Memorial Park / Washington Corridor Area,,4,2018,,"$543,458 ",,419,,,"$445,000 ",95%,121,"$572,438 "
-Houston,,Memorial Park / Washington Corridor Area,,4,2019,,"$531,268 ",,458,,,"$459,950 ",94%,126,"$562,976 "
-Houston,,Memorial Park / Washington Corridor Area,,4,2020,,"$545,308 ",,528,,,"$470,000 ",94%,127,"$578,017 "
-Houston,,Memorial Park / Washington Corridor Area,,4,2021,,"$596,457 ",,632,,,"$491,000 ",94%,82,"$632,763 "
-Houston,,Memorial Vilages,,4,2017,,"$1,744,196 ",,253,,,"$1,500,000 ",92%,131,"$1,903,087 "
-Houston,,Memorial Vilages,,4,2018,,"$1,684,903 ",,267,,,"$1,525,000 ",91%,122,"$1,852,601 "
-Houston,,Memorial Vilages,,4,2019,,"$1,656,108 ",,285,,,"$1,500,000 ",91%,148,"$1,812,038 "
-Houston,,Memorial Vilages,,4,2020,,"$1,675,025 ",,262,,,"$1,500,000 ",89%,158,"$1,877,339 "
-Houston,,Memorial Vilages,,4,2021,,"$1,829,303 ",,341,,,"$1,600,000 ",92%,114,"$1,981,254 "
-Houston,,Memorial West,,4,2017,,"$772,244 ",,431,,,"$689,900 ",94%,86,"$824,922 "
-Houston,,Memorial West,,4,2018,,"$716,577 ",,450,,,"$628,500 ",91%,107,"$787,185 "
-Houston,,Memorial West,,4,2019,,"$761,620 ",,487,,,"$660,000 ",93%,111,"$821,531 "
-Houston,,Memorial West,,4,2020,,"$827,658 ",,499,,,"$726,000 ",94%,119,"$881,606 "
-Houston,,Memorial West,,4,2021,,"$987,243 ",,519,,,"$825,000 ",94%,97,"$1,052,033 "
-Houston,,Meyerland,,4,2017,,"$429,640 ",,254,,,"$372,500 ",92%,104,"$464,565 "
-Houston,,Meyerland,,4,2018,,"$372,393 ",,320,,,"$305,000 ",82%,118,"$454,299 "
-Houston,,Meyerland,,4,2019,,"$414,320 ",,205,,,"$351,023 ",91%,161,"$454,523 "
-Houston,,Meyerland,,4,2020,,"$408,461 ",,256,,,"$362,500 ",92%,158,"$445,683 "
-Houston,,Meyerland,,4,2021,,"$463,825 ",,330,,,"$420,000 ",95%,109,"$486,212 "
-Houston,,North Cypress and Tomball,,4,2017,,"$279,164 ",,"2,616",,,"$239,945 ",93%,80,"$298,952 "
-Houston,,North Cypress and Tomball,,4,2018,,"$294,981 ",,"2,513",,,"$255,000 ",95%,81,"$310,559 "
-Houston,,North Cypress and Tomball,,4,2019,,"$313,426 ",,"2,699",,,"$270,000 ",95%,80,"$329,569 "
-Houston,,North Cypress and Tomball,,4,2020,,"$323,473 ",,"2,781",,,"$282,500 ",96%,60,"$335,254 "
-Houston,,North Cypress and Tomball,,4,2021,,"$382,301 ",,"2,989",,,"$327,000 ",99%,26,"$384,487 "
-Houston,,Oak Forest / Shepard Park Plaza Area,,4,2017,,"$412,954 ",,676,,,"$360,000 ",94%,88,"$438,207 "
-Houston,,Oak Forest / Shepard Park Plaza Area,,4,2018,,"$438,677 ",,688,,,"$368,250 ",94%,84,"$464,438 "
-Houston,,Oak Forest / Shepard Park Plaza Area,,4,2019,,"$455,781 ",,723,,,"$385,000 ",96%,80,"$476,427 "
-Houston,,Oak Forest / Shepard Park Plaza Area,,4,2020,,"$471,723 ",,849,,,"$375,000 ",94%,80,"$502,427 "
-Houston,,Oak Forest / Shepard Park Plaza Area,,4,2021,,"$495,514 ",,950,,,"$400,000 ",97%,59,"$508,439 "
-Houston,,Pearland,,4,2017,,"$272,747 ",,"2,212",,,"$256,750 ",95%,55,"$285,807 "
-Houston,,Pearland,,4,2018,,"$279,241 ",,"2,181",,,"$265,000 ",96%,59,"$290,767 "
-Houston,,Pearland,,4,2019,,"$284,866 ",,"2,042",,,"$270,000 ",96%,64,"$296,617 "
-Houston,,Pearland,,4,2020,,"$294,434 ",,"2,179",,,"$278,000 ",97%,61,"$302,119 "
-Houston,,Pearland,,4,2021,,"$338,936 ",,"2,150",,,"$323,495 ",101%,26,"$336,278 "
-Houston,,Porter / New Caney Area,,4,2017,,"$234,618 ",,776,,,"$224,662 ",94%,106,"$249,438 "
-Houston,,Porter / New Caney Area,,4,2018,,"$234,941 ",,808,,,"$224,450 ",95%,91,"$248,471 "
-Houston,,Porter / New Caney Area,,4,2019,,"$238,712 ",,917,,,"$225,000 ",94%,94,"$253,464 "
-Houston,,Porter / New Caney Area,,4,2020,,"$253,124 ",,"1,187",,,"$228,990 ",95%,93,"$265,789 "
-Houston,,Porter / New Caney Area,,4,2021,,"$289,765 ",,"1,350",,,"$257,000 ",98%,44,"$294,703 "
-Houston,,River Oaks Area,,,2017,,,,,,,,,,
-Houston,,River Oaks Area,,,2018,,,,,,,,,,
-Houston,,River Oaks Area,,,2019,,,,,,,,,,
-Houston,,River Oaks Area,,,2020,,,,,,,,,,
-Houston,,River Oaks Area,,,2021,,,,,,,,,,
-Houston,,River Oaks Area,,,,,,,,,,,,,
-Houston,,River Oaks Proper,,,,,,,,,,,,,
-Houston,,Spring Area,,,,,,,,,,,,,
-Houston,,Spring Branch,,,,,,,,,,,,,
-Houston,,Tanglewood / Galleria Area,,,,,,,,,,,,,
-Houston,,Tanglewood Proper,,,,,,,,,,,,,
-Houston,,The Woodlands,,,,,,,,,,,,,
-Houston,,West U / Southside,,,,,,,,,,,,,
-Houston,,Willow Meadows,,,,,,,,,,,,,
-Sonoma - Napa Wine Country,,Calistoga,,,2021,"$29,000,000 ","$1,600,000 ",,18,,,,,129,
-Sonoma - Napa Wine Country,,Healdsburg,,,2021,"$112,000,000 ","$1,500,000 ",,74,,,,,129,
-Sonoma - Napa Wine Country,,Napa,,,2021,"$269,000,000 ","$1,200,000 ",,226,,,,,76,
-Sonoma - Napa Wine Country,,Napa County,,,2018,"$296,000,000 ","$1,100,000 ",,279,,,,,99,
-Sonoma - Napa Wine Country,,Napa County,,,2019,"$279,000,000 ","$1,000,000 ",,276,,,,,110,
-Sonoma - Napa Wine Country,,Napa County,,,2020,"$412,000,000 ","$1,200,000 ",,352,,,,,103,
-Sonoma - Napa Wine Country,,Napa County,,,2021,"$443,000,000 ","$1,300,000 ",,338,,,,,91,
-Sonoma - Napa Wine Country,,Petaluma,,,2021,"$159,000,000 ","$968,000 ",,164,,,,,72,
-Sonoma - Napa Wine Country,,Russian River,,,2021,"$49,000,000 ","$639,000 ",,77,,,,,86,
-Sonoma - Napa Wine Country,,Santa Rosa,,,2021,"$416,000,000 ","$825,000 ",,504,,,,,80,
-Sonoma - Napa Wine Country,,Sebastopol,,,2021,"$80,000,000 ","$1,200,000 ",,64,,,,,106,
-Sonoma - Napa Wine Country,,Sonoma Coast,,,2021,"$69,000,000 ","$1,900,000 ",,36,,,,,62,
-Sonoma - Napa Wine Country,,Sonoma County,,,2018,"$812,000,000 ","$780,000 ",,"1,041",,,,,98,
-Sonoma - Napa Wine Country,,Sonoma County,,,2019,"$806,000,000 ","$788,000 ",,"1,022",,,,,101,
-Sonoma - Napa Wine Country,,Sonoma County,,,2020,"$1,100,000,000 ","$896,000 ",,"1,259",,,,,86,
-Sonoma - Napa Wine Country,,Sonoma County,,,2021,"$1,300,000,000 ","$969,000 ",,"1,352",,,,,86,
-Sonoma - Napa Wine Country,,Sonoma Valley,,,2021,"$184,000,000 ","$1,700,000 ",,111,,,,,112,
-Sonoma - Napa Wine Country,,St Helena & Yountville,,,2021,"$96,000,000 ","$2,700,000 ",,35,,,,,150,
+region,district,city,neighborhood,quarter,year,avg_list_price,avg_sale_price,list_ratio,median_sale_price,total_sold,days_on_market,volume,discount_ratio,active_inventory,pending_sales
+Cape Cod,Lower Cape,Brewster,,4,2018,,"$534,982 ",97%,"$436,950 ",64,74,,,63,
+Cape Cod,Lower Cape,Brewster,,4,2019,,"$629,696 ",97%,"$448,250 ",34,86,,,52,
+Cape Cod,Lower Cape,Brewster,,4,2020,,"$754,701 ",100%,"$636,250 ",64,50,,,44,
+Cape Cod,Lower Cape,Brewster,,4,2021,,"$1,016,658 ",99%,"$750,000 ",48,25,,,6,
+Cape Cod,Lower Cape,Chatham,,4,2018,,"$1,453,317 ",95%,"$700,500 ",62,209,,,116,
+Cape Cod,Lower Cape,Chatham,,4,2019,,"$1,024,930 ",94%,"$727,000 ",53,192,,,122,
+Cape Cod,Lower Cape,Chatham,,4,2020,,"$1,384,231 ",97%,"$973,750 ",94,97,,,99,
+Cape Cod,Lower Cape,Chatham,,4,2021,,"$2,246,570 ",97%,"$1,325,000 ",58,31,,,24,
+Cape Cod,Lower Cape,Eastham,,4,2018,,"$519,817 ",96%,"$477,500 ",58,98,,,64,
+Cape Cod,Lower Cape,Eastham,,4,2019,,"$629,650 ",96%,"$519,000 ",53,99,,,56,
+Cape Cod,Lower Cape,Eastham,,4,2020,,"$661,753 ",99%,"$588,500 ",54,63,,,41,
+Cape Cod,Lower Cape,Eastham,,4,2021,,"$776,504 ",100%,"$700,000 ",47,22,,,6,
+Cape Cod,Lower Cape,Harwich,,4,2018,,"$560,189 ",94%,"$400,000 ",91,78,,,107,
+Cape Cod,Lower Cape,Harwich,,4,2019,,"$611,085 ",96%,"$509,000 ",79,101,,,75,
+Cape Cod,Lower Cape,Harwich,,4,2020,,"$751,457 ",99%,"$540,000 ",111,38,,,58,
+Cape Cod,Lower Cape,Harwich,,4,2021,,"$826,294 ",103%,"$685,000 ",77,17,,,7,
+Cape Cod,Lower Cape,Orleans,,4,2018,,"$769,888 ",97%,"$652,000 ",49,92,,,63,
+Cape Cod,Lower Cape,Orleans,,4,2019,,"$864,618 ",92%,"$696,450 ",34,120,,,76,
+Cape Cod,Lower Cape,Orleans,,4,2020,,"$1,187,920 ",96%,"$775,000 ",67,113,,,61,
+Cape Cod,Lower Cape,Orleans,,4,2021,,"$1,153,056 ",99%,"$920,000 ",31,38,,,23,
+Cape Cod,Mid Cape,Barnstable,,4,2018,,"$536,144 ",95%,"$370,000 ",215,96,,,284,
+Cape Cod,Mid Cape,Barnstable,,4,2019,,"$572,252 ",95%,"$390,000 ",199,84,,,237,
+Cape Cod,Mid Cape,Barnstable,,4,2020,,"$850,510 ",97%,"$512,500 ",290,63,,,198,
+Cape Cod,Mid Cape,Barnstable,,4,2021,,"$1,060,182 ",96%,"$600,000 ",218,34,,,66,
+Cape Cod,Mid Cape,Dennis,,4,2018,,"$402,708 ",95%,"$345,400 ",114,70,,,141,
+Cape Cod,Mid Cape,Dennis,,4,2019,,"$658,141 ",97%,"$375,000 ",103,62,,,80,
+Cape Cod,Mid Cape,Dennis,,4,2020,,"$604,378 ",99%,"$452,500 ",120,47,,,92,
+Cape Cod,Mid Cape,Dennis,,4,2021,,"$703,415 ",99%,"$540,000 ",88,27,,,19,
+Cape Cod,Mid Cape,Yarmouth,,4,2018,,"$370,876 ",97%,"$326,900 ",167,82,,,161,
+Cape Cod,Mid Cape,Yarmouth,,4,2019,,"$394,737 ",97%,"$358,200 ",124,79,,,120,
+Cape Cod,Mid Cape,Yarmouth,,4,2020,,"$513,627 ",98%,"$410,000 ",173,43,,,92,
+Cape Cod,Mid Cape,Yarmouth,,4,2021,,"$595,842 ",99%,"$500,000 ",143,19,,,25,
+Cape Cod,Upper Cape,Bourne,,4,2018,,"$468,862 ",95%,"$337,000 ",46,74,,,60,
+Cape Cod,Upper Cape,Bourne,,4,2019,,"$582,679 ",114%,"$417,500 ",53,105,,,43,
+Cape Cod,Upper Cape,Bourne,,4,2020,,"$650,200 ",98%,"$468,500 ",67,54,,,60,
+Cape Cod,Upper Cape,Bourne,,4,2021,,"$617,136 ",99%,"$499,000 ",50,34,,,14,
+Cape Cod,Upper Cape,Falmouth,,4,2018,,"$556,971 ",95%,"$450,000 ",169,80,,,169,
+Cape Cod,Upper Cape,Falmouth,,4,2019,,"$609,629 ",96%,"$476,000 ",142,102,,,131,
+Cape Cod,Upper Cape,Falmouth,,4,2020,,"$818,284 ",99%,"$600,000 ",194,57,,,98,
+Cape Cod,Upper Cape,Falmouth,,4,2021,,"$865,686 ",101%,"$710,000 ",123,29,,,31,
+Cape Cod,Upper Cape,Mashpee,,4,2018,,"$529,724 ",95%,"$401,250 ",114,119,,,112,
+Cape Cod,Upper Cape,Mashpee,,4,2019,,"$763,023 ",96%,"$539,900 ",69,116,,,88,
+Cape Cod,Upper Cape,Mashpee,,4,2020,,"$845,544 ",99%,"$625,000 ",99,73,,,106,
+Cape Cod,Upper Cape,Mashpee,,4,2021,,"$927,903 ",99%,"$698,250 ",64,28,,,36,
+Cape Cod,Upper Cape,Sandwich,,4,2018,,"$444,601 ",97%,"$381,000 ",103,78,,,117,
+Cape Cod,Upper Cape,Sandwich,,4,2019,,"$477,172 ",97%,"$412,000 ",83,90,,,94,
+Cape Cod,Upper Cape,Sandwich,,4,2020,,"$581,169 ",101%,"$540,000 ",115,42,,,62,
+Cape Cod,Upper Cape,Sandwich,,4,2021,,"$625,682 ",101%,"$585,000 ",101,16,,,14,
+Greater LA,Greater Los Angeles,Bel-Air / Holmby Hills,,4,2021,,,-1.50%,"$3,500,000 ",55,50,,,,
+Greater LA,Greater Los Angeles,Bel-Air / Holmby Hills,,4,2020,,,-4.10%,"$2,682,500 ",60,59,,,,
+Greater LA,Greater Los Angeles,Bel-Air / Holmby Hills,,4,2019,,,-5.20%,"$2,817,000 ",48,90,,,,
+Greater LA,Greater Los Angeles,Bel-Air / Holmby Hills,,4,2018,,,-4.90%,"$2,645,000 ",38,67,,,,
+Greater LA,Greater Los Angeles,Bel-Air / Holmby Hills,,4,2017,,,-1.50%,"$2,575,000 ",46,60,,,,
+Greater LA,Greater Los Angeles,Beverly Hills,,4,2021,,,-2.60%,"$8,200,000 ",53,69,,,,
+Greater LA,Greater Los Angeles,Beverly Hills,,4,2020,,,-7.10%,"$7,087,500 ",28,68,,,,
+Greater LA,Greater Los Angeles,Beverly Hills,,4,2019,,,-6.50%,"$6,500,000 ",30,86,,,,
+Greater LA,Greater Los Angeles,Beverly Hills,,4,2018,,,-5.00%,"$5,027,500 ",26,84,,,,
+Greater LA,Greater Los Angeles,Beverly Hills,,4,2017,,,-7.10%,"$6,137,500 ",30,81,,,,
+Greater LA,Greater Los Angeles,Beverly Hills Post Office,,4,2021,,,-1.20%,"$3,400,000 ",43,85,,,,
+Greater LA,Greater Los Angeles,Beverly Hills Post Office,,4,2020,,,-1.80%,"$3,370,000 ",44,74,,,,
+Greater LA,Greater Los Angeles,Beverly Hills Post Office,,4,2019,,,-4.50%,"$2,765,000 ",39,97,,,,
+Greater LA,Greater Los Angeles,Beverly Hills Post Office,,4,2018,,,-5.10%,"$3,150,000 ",33,59,,,,
+Greater LA,Greater Los Angeles,Beverly Hills Post Office,,4,2017,,,-3.90%,"$3,405,000 ",34,86,,,,
+Greater LA,Greater Los Angeles,Brentwood,,4,2021,,,-1.00%,"$3,560,000 ",83,48,,,,
+Greater LA,Greater Los Angeles,Brentwood,,4,2020,,,-3.30%,"$3,160,000 ",83,51,,,,
+Greater LA,Greater Los Angeles,Brentwood,,4,2019,,,-4.10%,"$2,925,000 ",55,74,,,,
+Greater LA,Greater Los Angeles,Brentwood,,4,2018,,,-3.40%,"$3,100,000 ",52,67,,,,
+Greater LA,Greater Los Angeles,Brentwood,,4,2017,,,-0.40%,"$3,337,500 ",60,48,,,,
+Greater LA,Greater Los Angeles,Downtown Los Angeles,,4,2021,,,-1.40%,"$650,000 ",113,54,,,,
+Greater LA,Greater Los Angeles,Downtown Los Angeles,,4,2020,,,-2.70%,"$560,000 ",74,83,,,,
+Greater LA,Greater Los Angeles,Downtown Los Angeles,,4,2019,,,-1.90%,"$517,500 ",64,70,,,,
+Greater LA,Greater Los Angeles,Downtown Los Angeles,,4,2018,,,-1.70%,"$581,000 ",74,63,,,,
+Greater LA,Greater Los Angeles,Downtown Los Angeles,,4,2017,,,-0.50%,"$535,000 ",71,51,,,,
+Greater LA,Greater Los Angeles,Encino,,4,2021,,,2.20%,"$2,052,000 ",113,21,,,,
+Greater LA,Greater Los Angeles,Encino,,4,2020,,,-0.90%,"$1,687,500 ",158,34,,,,
+Greater LA,Greater Los Angeles,Encino,,4,2019,,,-2.10%,"$1,410,000 ",103,51,,,,
+Greater LA,Greater Los Angeles,Encino,,4,2018,,,-2.30%,"$1,305,000 ",103,54,,,,
+Greater LA,Greater Los Angeles,Encino,,4,2017,,,-1.00%,"$1,250,000 ",112,55,,,,
+Greater LA,Greater Los Angeles,Hancock Park / Wilshire,,4,2021,,,2.80%,"$2,200,000 ",66,20,,,,
+Greater LA,Greater Los Angeles,Hancock Park / Wilshire,,4,2020,,,-0.80%,"$1,735,000 ",95,44,,,,
+Greater LA,Greater Los Angeles,Hancock Park / Wilshire,,4,2019,,,-2.00%,"$1,740,000 ",57,62,,,,
+Greater LA,Greater Los Angeles,Hancock Park / Wilshire,,4,2018,,,-0.60%,"$1,658,000 ",58,65,,,,
+Greater LA,Greater Los Angeles,Hancock Park / Wilshire,,4,2017,,,-1.20%,"$1,690,000 ",65,38,,,,
+Greater LA,Greater Los Angeles,Los Feliz,,4,2021,,,5.70%,"$1,805,000 ",67,30,,,,
+Greater LA,Greater Los Angeles,Los Feliz,,4,2020,,,2.30%,"$1,890,000 ",69,42,,,,
+Greater LA,Greater Los Angeles,Los Feliz,,4,2019,,,3.30%,"$1,787,500 ",48,51,,,,
+Greater LA,Greater Los Angeles,Los Feliz,,4,2018,,,3.00%,"$1,668,000 ",52,43,,,,
+Greater LA,Greater Los Angeles,Los Feliz,,4,2017,,,1.50%,"$1,720,000 ",47,42,,,,
+Greater LA,Greater Los Angeles,Malibu,,4,2021,,,6.00%,"$3,700,000 ",78,58,,,,
+Greater LA,Greater Los Angeles,Malibu,,4,2020,,,-3.30%,"$4,410,000 ",88,70,,,,
+Greater LA,Greater Los Angeles,Malibu,,4,2019,,,-7.30%,"$3,400,000 ",37,104,,,,
+Greater LA,Greater Los Angeles,Malibu,,4,2018,,,-6.00%,"$3,137,500 ",35,185,,,,
+Greater LA,Greater Los Angeles,Malibu,,4,2017,,,-5.60%,"$2,441,350 ",51,128,,,,
+Greater LA,Greater Los Angeles,Pacific Palisades,,4,2021,,,0.10%,"$4,107,500 ",90,37,,,,
+Greater LA,Greater Los Angeles,Pacific Palisades,,4,2020,,,-1.20%,"$3,274,000 ",88,43,,,,
+Greater LA,Greater Los Angeles,Pacific Palisades,,4,2019,,,-2.60%,"$3,400,000 ",63,66,,,,
+Greater LA,Greater Los Angeles,Pacific Palisades,,4,2018,,,-2.90%,"$3,436,000 ",63,50,,,,
+Greater LA,Greater Los Angeles,Pacific Palisades,,4,2017,,,-2.10%,"$3,340,000 ",55,57,,,,
+Greater LA,Greater Los Angeles,Santa Monica,,4,2021,,,1.30%,"$3,475,000 ",88,33,,,,
+Greater LA,Greater Los Angeles,Santa Monica,,4,2020,,,-0.90%,"$2,950,000 ",61,42,,,,
+Greater LA,Greater Los Angeles,Santa Monica,,4,2019,,,-1.70%,"$3,085,500 ",66,55,,,,
+Greater LA,Greater Los Angeles,Santa Monica,,4,2018,,,-2.00%,"$2,795,000 ",43,50,,,,
+Greater LA,Greater Los Angeles,Santa Monica,,4,2017,,,-0.90%,"$3,450,500 ",54,41,,,,
+Greater LA,Greater Los Angeles,Silver Lake / Echo Park,,4,2021,,,9.10%,"$1,453,000 ",87,18,,,,
+Greater LA,Greater Los Angeles,Silver Lake / Echo Park,,4,2020,,,2.80%,"$1,250,000 ",127,39,,,,
+Greater LA,Greater Los Angeles,Silver Lake / Echo Park,,4,2019,,,2.40%,"$1,150,034 ",92,48,,,,
+Greater LA,Greater Los Angeles,Silver Lake / Echo Park,,4,2018,,,3.40%,"$1,100,750 ",86,43,,,,
+Greater LA,Greater Los Angeles,Silver Lake / Echo Park,,4,2017,,,3.90%,"$1,089,000 ",93,37,,,,
+Greater LA,Greater Los Angeles,Sunset Strip/Hollywood Hills,,4,2021,,,0.90%,"$2,500,000 ",148,44,,,,
+Greater LA,Greater Los Angeles,Sunset Strip/Hollywood Hills,,4,2020,,,-2.90%,"$2,041,170 ",131,49,,,,
+Greater LA,Greater Los Angeles,Sunset Strip/Hollywood Hills,,4,2019,,,-2.80%,"$1,700,000 ",123,63,,,,
+Greater LA,Greater Los Angeles,Sunset Strip/Hollywood Hills,,4,2018,,,-2.00%,"$1,824,500 ",78,80,,,,
+Greater LA,Greater Los Angeles,Sunset Strip/Hollywood Hills,,4,2017,,,-2.00%,"$1,820,500 ",116,71,,,,
+Greater LA,Greater Los Angeles,Toluca Lake,,4,2021,,,1.20%,"$1,900,000 ",29,19,,,,
+Greater LA,Greater Los Angeles,Toluca Lake,,4,2020,,,2.50%,"$1,292,500 ",22,39,,,,
+Greater LA,Greater Los Angeles,Toluca Lake,,4,2019,,,-2.10%,"$1,193,750 ",11,64,,,,
+Greater LA,Greater Los Angeles,Toluca Lake,,4,2018,,,-1.00%,"$1,162,500 ",16,61,,,,
+Greater LA,Greater Los Angeles,Toluca Lake,,4,2017,,,0.60%,"$1,435,000 ",14,69,,,,
+Greater LA,Greater Los Angeles,Topanga,,4,2021,,,2.00%,"$1,921,250 ",21,39,,,,
+Greater LA,Greater Los Angeles,Topanga,,4,2020,,,0.80%,"$1,590,000 ",43,47,,,,
+Greater LA,Greater Los Angeles,Topanga,,4,2019,,,-0.60%,"$1,287,000 ",24,54,,,,
+Greater LA,Greater Los Angeles,Topanga,,4,2018,,,-1.10%,"$1,094,750 ",16,98,,,,
+Greater LA,Greater Los Angeles,Topanga,,4,2017,,,-2.20%,"$880,000 ",20,72,,,,
+Greater LA,Greater Los Angeles,Venice,,4,2021,,,-1.50%,"$2,520,000 ",79,49,,,,
+Greater LA,Greater Los Angeles,Venice,,4,2020,,,-2.70%,"$2,007,500 ",66,57,,,,
+Greater LA,Greater Los Angeles,Venice,,4,2019,,,-3.00%,"$2,061,000 ",44,54,,,,
+Greater LA,Greater Los Angeles,Venice,,4,2018,,,-3.20%,"$1,900,000 ",48,51,,,,
+Greater LA,Greater Los Angeles,Venice,,4,2017,,,-1.90%,"$1,962,500 ",52,47,,,,
+Greater LA,Greater Los Angeles,West Hollywood,,4,2021,,,0.50%,"$2,710,000 ",50,37,,,,
+Greater LA,Greater Los Angeles,West Hollywood,,4,2020,,,-1.90%,"$2,192,500 ",38,53,,,,
+Greater LA,Greater Los Angeles,West Hollywood,,4,2019,,,-2.20%,"$1,968,000 ",29,63,,,,
+Greater LA,Greater Los Angeles,West Hollywood,,4,2018,,,-1.40%,"$1,750,000 ",23,38,,,,
+Greater LA,Greater Los Angeles,West Hollywood,,4,2017,,,-0.30%,"$1,667,500 ",35,61,,,,
+Greater LA,Greater Los Angeles,Woodland Hills,,4,2021,,,3.40%,"$1,245,000 ",239,22,,,,
+Greater LA,Greater Los Angeles,Woodland Hills,,4,2020,,,1.60%,"$1,050,000 ",250,25,,,,
+Greater LA,Greater Los Angeles,Woodland Hills,,4,2019,,,-1.60%,"$915,000 ",187,51,,,,
+Greater LA,Greater Los Angeles,Woodland Hills,,4,2018,,,-1.80%,"$884,500 ",146,54,,,,
+Greater LA,Greater Los Angeles,Woodland Hills,,4,2017,,,-0.60%,"$829,000 ",189,63,,,,
+Greater Ventura County,,Agoura Hills,,4,2017,"$1,119,730 ","$1,095,486 ",2%,"$1,040,000 ",43,54,,,,
+Greater Ventura County,,Agoura Hills,,4,2018,"$1,261,545 ","$1,222,838 ",3%,"$1,025,000 ",51,70,,,,
+Greater Ventura County,,Agoura Hills,,4,2019,"$1,093,756 ","$1,077,582 ",1%,"$880,000 ",43,51,,,,
+Greater Ventura County,,Agoura Hills,,4,2020,"$1,233,737 ","$1,226,599 ",1%,"$1,075,000 ",72,39,,,,
+Greater Ventura County,,Agoura Hills,,4,2021,"$1,196,100 ","$1,205,818 ",-1%,"$978,758 ",84,45,,,,
+Greater Ventura County,,Calabasas,,4,2017,"$1,719,596 ","$1,668,880 ",3%,"$1,440,000 ",50,80,,,,
+Greater Ventura County,,Calabasas,,4,2018,"$1,816,456 ","$1,727,686 ",5%,"$1,515,000 ",49,66,,,,
+Greater Ventura County,,Calabasas,,4,2019,"$1,801,324 ","$1,724,236 ",4%,"$1,450,000 ",73,68,,,,
+Greater Ventura County,,Calabasas,,4,2020,"$2,049,204 ","$1,982,484 ",3%,"$1,675,000 ",93,45,,,,
+Greater Ventura County,,Calabasas,,4,2021,"$1,744,458 ","$1,781,368 ",-2%,"$1,597,100 ",94,32,,,,
+Greater Ventura County,,Camarillo,,4,2017,"$808,288 ","$790,350 ",2%,"$650,000 ",184,62,,,,
+Greater Ventura County,,Camarillo,,4,2018,"$712,734 ","$696,716 ",2%,"$629,000 ",186,66,,,,
+Greater Ventura County,,Camarillo,,4,2019,"$784,823 ","$766,950 ",2%,"$650,000 ",211,66,,,,
+Greater Ventura County,,Camarillo,,4,2020,"$915,916 ","$908,696 ",1%,"$725,000 ",211,37,,,,
+Greater Ventura County,,Camarillo,,4,2021,"$806,227 ","$817,872 ",-1%,"$808,000 ",98,19,,,,
+Greater Ventura County,,Channel Islands (Oxnard),,4,2017,"$1,241,720 ","$1,200,941 ",3%,"$1,007,500 ",42,89,,,,
+Greater Ventura County,,Channel Islands (Oxnard),,4,2018,"$1,720,311 ","$1,628,844 ",5%,"$1,225,000 ",32,118,,,,
+Greater Ventura County,,Channel Islands (Oxnard),,4,2019,"$1,022,962 ","$983,293 ",4%,"$800,000 ",61,90,,,,
+Greater Ventura County,,Channel Islands (Oxnard),,4,2020,"$1,234,634 ","$1,217,469 ",1%,"$946,150 ",102,47,,,,
+Greater Ventura County,,Channel Islands (Oxnard),,4,2021,"$1,403,013 ","$1,384,075 ",1%,"$1,129,477 ",103,29,,,,
+Greater Ventura County,,Lake Sherwood,,4,2017,"$3,852,500 ","$3,562,536 ",8%,"$3,725,000 ",14,89,,,,
+Greater Ventura County,,Lake Sherwood,,4,2018,"$5,254,000 ","$4,977,000 ",5%,"$4,575,000 ",5,168,,,,
+Greater Ventura County,,Lake Sherwood,,4,2019,"$2,759,800 ","$2,716,800 ",2%,"$3,285,000 ",5,103,,,,
+Greater Ventura County,,Lake Sherwood,,4,2020,"$4,004,125 ","$3,787,031 ",5%,"$3,725,000 ",8,140,,,,
+Greater Ventura County,,Lake Sherwood,,4,2021,"$2,823,250 ","$2,726,756 ",3%,"$2,800,000 ",4,18,,,,
+Greater Ventura County,,Moorpark / Simi Valley,,4,2017,"$689,639 ","$680,891 ",1%,"$605,000 ",413,56,,,,
+Greater Ventura County,,Moorpark / Simi Valley,,4,2018,"$691,974 ","$679,772 ",2%,"$620,000 ",363,56,,,,
+Greater Ventura County,,Moorpark / Simi Valley,,4,2019,"$716,899 ","$709,302 ",1%,"$642,000 ",382,53,,,,
+Greater Ventura County,,Moorpark / Simi Valley,,4,2020,"$797,516 ","$808,888 ",-1%,"$720,000 ",499,34,,,,
+Greater Ventura County,,Moorpark / Simi Valley,,4,2021,"$948,561 ","$958,919 ",-1%,"$876,000 ",106,29,,,,
+Greater Ventura County,,Oak Park,,4,2017,"$907,544 ","$897,623 ",1%,"$843,000 ",26,48,,,,
+Greater Ventura County,,Oak Park,,4,2018,"$1,145,328 ","$1,127,889 ",2%,"$1,029,000 ",18,45,,,,
+Greater Ventura County,,Oak Park,,4,2019,"$1,011,183 ","$995,447 ",2%,"$900,000 ",29,63,,,,
+Greater Ventura County,,Oak Park,,4,2020,"$1,029,979 ","$1,028,585 ",0%,"$922,500 ",40,33,,,,
+Greater Ventura County,,Oak Park,,4,2021,"$1,095,910 ","$1,105,260 ",-1%,"$1,075,000 ",48,30,,,,
+Greater Ventura County,,Thousand Oaks / Newbury Park,,4,2017,"$850,556 ","$838,527 ",1%,"$767,000 ",262,60,,,,
+Greater Ventura County,,Thousand Oaks / Newbury Park,,4,2018,"$894,324 ","$880,209 ",2%,"$757,000 ",236,63,,,,
+Greater Ventura County,,Thousand Oaks / Newbury Park,,4,2019,"$1,024,834 ","$966,713 ",6%,"$800,250 ",248,62,,,,
+Greater Ventura County,,Thousand Oaks / Newbury Park,,4,2020,"$998,455 ","$992,354 ",1%,"$862,000 ",339,38,,,,
+Greater Ventura County,,Thousand Oaks / Newbury Park,,4,2021,"$1,053,067 ","$1,060,388 ",-1%,"$940,000 ",277,36,,,,
+Greater Ventura County,,Ventura,,4,2017,"$696,310 ","$683,848 ",2%,"$615,000 ",161,69,,,,
+Greater Ventura County,,Ventura,,4,2018,"$858,857 ","$837,721 ",2%,"$651,950 ",174,68,,,,
+Greater Ventura County,,Ventura,,4,2019,"$816,854 ","$789,937 ",3%,"$646,750 ",170,62,,,,
+Greater Ventura County,,Ventura,,4,2020,"$931,173 ","$919,178 ",1%,"$735,250 ",278,27,,,,
+Greater Ventura County,,Ventura,,4,2021,"$861,747 ","$881,394 ",-2%,"$825,000 ",91,21,,,,
+Greater Ventura County,,Westlake Village,,4,2017,"$1,639,898 ","$1,556,836 ",5%,"$1,317,500 ",72,75,,,,
+Greater Ventura County,,Westlake Village,,4,2018,"$1,577,260 ","$1,482,541 ",6%,"$1,185,000 ",67,69,,,,
+Greater Ventura County,,Westlake Village,,4,2019,"$1,696,276 ","$1,649,205 ",3%,"$1,305,000 ",74,51,,,,
+Greater Ventura County,,Westlake Village,,4,2020,"$1,967,597 ","$1,891,415 ",4%,"$1,565,000 ",101,51,,,,
+Greater Ventura County,,Westlake Village,,4,2021,"$1,597,511 ","$1,581,989 ",-1%,"$1,230,000 ",131,34,,,,
+Greenwich,Greenwich,Greenwich Proper,,4,2021,,"$3,005,856 ",,,"1,007",,3000000000,96%,151,54
+Greenwich,Greenwich,Greenwich Proper,,4,2020,,"$2,669,962 ",,,862,,2300000000,92%,287,77
+Greenwich,Greenwich,Greenwich Proper,,4,2019,,"$2,376,330 ",,,528,,1300000000,88%,432,27
+Greenwich,Greenwich,Greenwich Proper,,4,2018,,"$2,393,007 ",,,594,,1400000000,91%,718,32
+Greenwich,Greenwich,Greenwich Proper,,4,2017,,"$2,574,994 ",,,572,,1500000000,90%,638,
+Greenwich,Greenwich,Greenwich Proper,,4,2021,,"$3,470,331 ",,,581,,2000000000,95%,129,35
+Greenwich,Greenwich,Greenwich Proper,,4,2020,,"$3,012,050 ",,,503,,1500000000,90%,225,49
+Greenwich,Greenwich,Greenwich Proper,,4,2019,,"$2,742,470 ",,,288,,790000000,86%,312,16
+Greenwich,Greenwich,Greenwich Proper,,4,2018,,"$2,685,486 ",,,317,,851000000,90%,487,16
+Greenwich,Greenwich,Greenwich Proper,,4,2017,,"$2,919,119 ",,,328,,957000000,89%,433,
+Greenwich,Greenwich,Cos Cob,,4,2021,,"$1,645,808 ",,,108,,178000000,96%,6,4
+Greenwich,Greenwich,Cos Cob,,4,2020,,"$1,408,911 ",,,87,,123000000,93%,20,10
+Greenwich,Greenwich,Cos Cob,,4,2019,,"$1,248,246 ",,,56,,70000000,90%,43,3
+Greenwich,Greenwich,Cos Cob,,4,2018,,"$1,564,417 ",,,83,,130000000,92%,63,3
+Greenwich,Greenwich,Cos Cob,,4,2017,,"$1,331,752 ",,,67,,89000000,90%,46,-
+Greenwich,Greenwich,Old Greenwich,,4,2021,,"$2,624,038 ",,,155,,407000000,100%,9,12
+Greenwich,Greenwich,Old Greenwich,,4,2020,,"$2,295,702 ",,,137,,315000000,94%,24,4
+Greenwich,Greenwich,Old Greenwich,,4,2019,,"$2,323,308 ",,,98,,228000000,90%,35,4
+Greenwich,Greenwich,Old Greenwich,,4,2018,,"$2,166,275 ",,,87,,188000000,91%,72,11
+Greenwich,Greenwich,Old Greenwich,,4,2017,,"$2,455,256 ",,,77,,189000000,91%,77,
+Greenwich,Greenwich,Riverside,,4,2021,,"$2,614,485 ",,,163,,426000000,98%,7,3
+Greenwich,Greenwich,Riverside,,4,2020,,"$2,587,852 ",,,135,,349000000,93%,18,14
+Greenwich,Greenwich,Riverside,,4,2019,,"$1,945,174 ",,,86,,167000000,90%,42,4
+Greenwich,Greenwich,Riverside,,4,2018,,"$2,353,592 ",,,107,,252000000,92%,96,2
+Greenwich,Greenwich,Riverside,,4,2017,,"$2,371,436 ",,,100,,237000000,93%,82,
+Hamptons,Hamptons,Amagansett / Montauk,,4,2021,,"$3,496,963 ",,"$1,650,000 ",65,,,,,
+Hamptons,Hamptons,Amagansett / Montauk,,4,2020,,"$2,527,537 ",,"$2,000,000 ",107,,,,,
+Hamptons,Hamptons,Amagansett / Montauk,,4,2019,,"$2,203,453 ",,"$1,437,500 ",58,,,,,
+Hamptons,Hamptons,Amagansett / Montauk,,4,2018,,"$2,031,190 ",,"$1,250,000 ",77,,,,,
+Hamptons,Hamptons,Amagansett / Montauk,,4,2017,,"$1,795,582 ",,"$1,130,000 ",80,,,,,
+Hamptons,Hamptons,Bridgehampton,,4,2021,,"$6,533,471 ",,"$3,050,000 ",66,,,,,
+Hamptons,Hamptons,Bridgehampton,,4,2020,,"$4,069,794 ",,"$3,100,000 ",81,,,,,
+Hamptons,Hamptons,Bridgehampton,,4,2019,,"$5,230,081 ",,"$3,250,000 ",37,,,,,
+Hamptons,Hamptons,Bridgehampton,,4,2018,,"$4,698,014 ",,"$3,400,000 ",35,,,,,
+Hamptons,Hamptons,Bridgehampton,,4,2017,,"$3,582,979 ",,"$2,475,000 ",42,,,,,
+Hamptons,Hamptons,East Hampton,,4,2021,,"$2,027,783 ",,"$1,300,000 ",193,,,,,
+Hamptons,Hamptons,East Hampton,,4,2020,,"$2,181,139 ",,"$1,357,500 ",212,,,,,
+Hamptons,Hamptons,East Hampton,,4,2019,,"$1,698,193 ",,"$936,664 ",138,,,,,
+Hamptons,Hamptons,East Hampton,,4,2018,,"$2,042,542 ",,"$1,125,000 ",117,,,,,
+Hamptons,Hamptons,East Hampton,,4,2017,,"$1,660,328 ",,"$935,000 ",169,,,,,
+Hamptons,Hamptons,Sag Harbor,,4,2021,,"$2,721,284 ",,"$1,895,000 ",85,,,,,
+Hamptons,Hamptons,Sag Harbor,,4,2020,,"$2,223,682 ",,"$1,600,000 ",102,,,,,
+Hamptons,Hamptons,Sag Harbor,,4,2019,,"$1,874,423 ",,"$1,425,000 ",57,,,,,
+Hamptons,Hamptons,Sag Harbor,,4,2018,,"$2,111,029 ",,"$1,500,000 ",63,,,,,
+Hamptons,Hamptons,Sag Harbor,,4,2017,,"$1,625,426 ",,"$1,225,000 ",77,,,,,
+Hamptons,Hamptons,Southampton,,4,2021,,"$3,997,350 ",,"$1,985,000 ",172,,,,,
+Hamptons,Hamptons,Southampton,,4,2020,,"$3,301,390 ",,"$1,906,500 ",184,,,,,
+Hamptons,Hamptons,Southampton,,4,2019,,"$3,404,720 ",,"$1,630,000 ",143,,,,,
+Hamptons,Hamptons,Southampton,,4,2018,,"$2,096,322 ",,"$1,120,000 ",119,,,,,
+Hamptons,Hamptons,Southampton,,4,2017,,"$2,943,482 ",,"$1,541,140 ",135,,,,,
+Hamptons,Hamptons,Westhampton,,4,2021,,"$1,550,055 ",,"$890,000 ",259,,,,,
+Hamptons,Hamptons,Westhampton,,4,2020,,"$1,393,548 ",,"$910,000 ",265,,,,,
+Hamptons,Hamptons,Westhampton,,4,2019,,"$959,059 ",,"$635,000 ",183,,,,,
+Hamptons,Hamptons,Westhampton,,4,2018,,"$1,006,657 ",,"$637,000 ",214,,,,,
+Hamptons,Hamptons,Westhampton,,4,2017,,"$967,786 ",,"$595,000 ",211,,,,,
+Houston,,Atascocita Area,,4,2017,"$279,420 ","$263,773 ",94%,"$239,000 ","1,606",86,,,,
+Houston,,Atascocita Area,,4,2018,"$286,418 ","$274,164 ",96%,"$250,000 ","1,657",97,,,,
+Houston,,Atascocita Area,,4,2019,"$295,876 ","$283,064 ",96%,"$264,000 ","1,873",87,,,,
+Houston,,Atascocita Area,,4,2020,"$308,709 ","$293,024 ",95%,"$267,500 ","2,384",78,,,,
+Houston,,Atascocita Area,,4,2021,"$342,945 ","$339,840 ",99%,"$311,918 ","2,380",38,,,,
+Houston,,Bellaire,,4,2017,"$1,026,803 ","$946,833 ",92%,"$890,500 ",263,103,,,,
+Houston,,Bellaire,,4,2018,"$971,548 ","$887,668 ",91%,"$847,500 ",269,126,,,,
+Houston,,Bellaire,,4,2019,"$973,939 ","$890,571 ",91%,"$852,500 ",234,153,,,,
+Houston,,Bellaire,,4,2020,"$1,009,143 ","$934,439 ",93%,"$860,000 ",271,171,,,,
+Houston,,Bellaire,,4,2021,"$1,024,261 ","$963,328 ",94%,"$915,000 ",349,126,,,,
+Houston,,Braeswood Place,,4,2017,"$876,647 ","$813,306 ",93%,"$680,020 ",123,125,,,,
+Houston,,Braeswood Place,,4,2018,"$794,037 ","$739,290 ",93%,"$550,000 ",130,91,,,,
+Houston,,Braeswood Place,,4,2019,"$940,439 ","$877,378 ",93%,"$799,275 ",86,149,,,,
+Houston,,Braeswood Place,,4,2020,"$915,841 ","$863,015 ",94%,"$678,000 ",79,103,,,,
+Houston,,Braeswood Place,,4,2021,"$1,101,541 ","$1,062,700 ",96%,"$1,067,723 ",124,118,,,,
+Houston,,Briargrove Park / Walnut Bend,,4,2017,"$504,238 ","$472,970 ",94%,"$439,000 ",191,94,,,,
+Houston,,Briargrove Park / Walnut Bend,,4,2018,"$468,548 ","$435,964 ",93%,"$420,500 ",192,83,,,,
+Houston,,Briargrove Park / Walnut Bend,,4,2019,"$506,821 ","$467,722 ",92%,"$451,000 ",166,131,,,,
+Houston,,Briargrove Park / Walnut Bend,,4,2020,"$527,672 ","$494,883 ",94%,"$457,500 ",214,107,,,,
+Houston,,Briargrove Park / Walnut Bend,,4,2021,"$544,436 ","$527,191 ",97%,"$518,500 ",224,72,,,,
+Houston,,Central Area,,4,2017,"$713,596 ","$673,524 ",94%,"$600,000 ",355,133,,,,
+Houston,,Central Area,,4,2018,"$746,384 ","$698,925 ",94%,"$600,000 ",391,124,,,,
+Houston,,Central Area,,4,2019,"$747,611 ","$713,920 ",95%,"$645,000 ",365,137,,,,
+Houston,,Central Area,,4,2020,"$747,293 ","$712,078 ",95%,"$626,655 ",396,155,,,,
+Houston,,Central Area,,4,2021,"$780,513 ","$746,609 ",96%,"$653,720 ",536,120,,,,
+Houston,,Clear Lake,,4,2017,"$303,321 ","$280,071 ",92%,"$245,000 ","1,089",60,,,,
+Houston,,Clear Lake,,4,2018,"$314,877 ","$300,829 ",96%,"$265,000 ","1,120",60,,,,
+Houston,,Clear Lake,,4,2019,"$315,938 ","$303,261 ",96%,"$264,000 ","1,170",66,,,,
+Houston,,Clear Lake,,4,2020,"$343,622 ","$324,532 ",94%,"$285,000 ","1,297",62,,,,
+Houston,,Clear Lake,,4,2021,"$364,762 ","$357,035 ",98%,"$315,000 ","1,310",31,,,,
+Houston,,Cypress South Area,,4,2017,"$248,733 ","$236,318 ",95%,"$209,000 ","4,077",69,,,,
+Houston,,Cypress South Area,,4,2018,"$264,469 ","$252,013 ",95%,"$220,000 ","4,053",81,,,,
+Houston,,Cypress South Area,,4,2019,"$276,225 ","$265,998 ",96%,"$233,950 ","4,154",61,,,,
+Houston,,Cypress South Area,,4,2020,"$288,647 ","$280,278 ",97%,"$249,000 ","4,593",49,,,,
+Houston,,Cypress South Area,,4,2021,"$322,345 ","$325,347 ",101%,"$285,490 ","4,821",20,,,,
+Houston,,East End Revitalized,,4,2017,"$275,697 ","$257,218 ",93%,"$269,450 ",324,72,,,,
+Houston,,East End Revitalized,,4,2018,"$284,786 ","$268,747 ",94%,"$285,000 ",377,98,,,,
+Houston,,East End Revitalized,,4,2019,"$306,289 ","$291,389 ",95%,"$297,000 ",405,82,,,,
+Houston,,East End Revitalized,,4,2020,"$306,150 ","$293,451 ",96%,"$298,000 ",387,91,,,,
+Houston,,East End Revitalized,,4,2021,"$330,057 ","$318,807 ",97%,"$328,250 ",562,79,,,,
+Houston,,Energy Corridor,,4,2017,"$429,824 ","$401,296 ",93%,"$355,000 ",550,96,,,,
+Houston,,Energy Corridor,,4,2018,"$410,362 ","$380,535 ",93%,"$334,250 ",596,97,,,,
+Houston,,Energy Corridor,,4,2019,"$415,193 ","$387,712 ",93%,"$334,900 ",609,122,,,,
+Houston,,Energy Corridor,,4,2020,"$413,482 ","$387,570 ",94%,"$340,000 ",695,121,,,,
+Houston,,Energy Corridor,,4,2021,"$456,849 ","$444,455 ",97%,"$382,750 ",792,67,,,,
+Houston,,Friendswood,,4,2017,"$332,080 ","$313,446 ",94%,"$250,000 ",771,55,,,,
+Houston,,Friendswood,,4,2018,"$334,280 ","$314,460 ",94%,"$255,000 ",878,58,,,,
+Houston,,Friendswood,,4,2019,"$359,888 ","$343,446 ",95%,"$282,000 ",867,69,,,,
+Houston,,Friendswood,,4,2020,"$384,044 ","$363,181 ",95%,"$294,950 ",866,54,,,,
+Houston,,Friendswood,,4,2021,"$424,675 ","$413,129 ",97%,"$334,000 ",911,25,,,,
+Houston,,Greater Heights Area,,4,2017,"$570,726 ","$543,006 ",95%,"$465,000 ","1,227",98,,,,
+Houston,,Greater Heights Area,,4,2018,"$607,115 ","$578,602 ",95%,"$500,000 ","1,299",96,,,,
+Houston,,Greater Heights Area,,4,2019,"$614,673 ","$592,312 ",96%,"$515,000 ","1,294",87,,,,
+Houston,,Greater Heights Area,,4,2020,"$626,686 ","$604,666 ",96%,"$520,000 ","1,397",74,,,,
+Houston,,Greater Heights Area,,4,2021,"$668,336 ","$653,345 ",98%,"$552,210 ","1,640",62,,,,
+Houston,,Hockley,,4,2017,"$237,984 ","$225,045 ",95%,"$196,000 ",312,68,,,,
+Houston,,Hockley,,4,2018,"$239,940 ","$230,356 ",96%,"$203,900 ",352,132,,,,
+Houston,,Hockley,,4,2019,"$246,570 ","$236,030 ",96%,"$214,900 ",523,78,,,,
+Houston,,Hockley,,4,2020,"$263,471 ","$255,567 ",97%,"$231,900 ",482,61,,,,
+Houston,,Hockley,,4,2021,"$301,133 ","$296,320 ",98%,"$265,900 ",617,35,,,,
+Houston,,Katy Area,,4,2017,"$380,173 ","$347,738 ",91%,"$315,000 ","3,633",89,,,,
+Houston,,Katy Area,,4,2018,"$370,582 ","$351,703 ",95%,"$320,000 ","3,684",98,,,,
+Houston,,Katy Area,,4,2019,"$380,376 ","$361,123 ",95%,"$325,000 ","3,905",88,,,,
+Houston,,Katy Area,,4,2020,"$392,443 ","$375,710 ",96%,"$339,332 ","4,490",71,,,,
+Houston,,Katy Area,,4,2021,"$439,034 ","$440,806 ",100%,"$397,500 ","4,751",29,,,,
+Houston,,Kingwood Area,,4,2017,"$294,578 ","$277,274 ",94%,"$240,500 ","1,398",71,,,,
+Houston,,Kingwood Area,,4,2018,"$287,191 ","$270,503 ",94%,"$239,900 ","1,335",67,,,,
+Houston,,Kingwood Area,,4,2019,"$300,340 ","$281,354 ",94%,"$254,450 ","1,448",82,,,,
+Houston,,Kingwood Area,,4,2020,"$326,294 ","$290,699 ",89%,"$254,000 ","1,867",77,,,,
+Houston,,Kingwood Area,,4,2021,"$342,374 ","$336,767 ",98%,"$290,000 ","1,873",33,,,,
+Houston,,Lake Conroe,,4,2017,"$309,609 ","$289,235 ",93%,"$234,900 ","1,730",124,,,,
+Houston,,Lake Conroe,,4,2018,"$317,620 ","$298,577 ",94%,"$245,000 ","1,804",133,,,,
+Houston,,Lake Conroe,,4,2019,"$343,072 ","$318,297 ",93%,"$253,000 ","1,967",114,,,,
+Houston,,Lake Conroe,,4,2020,"$352,549 ","$334,993 ",95%,"$265,000 ","2,517",103,,,,
+Houston,,Lake Conroe,,4,2021,"$381,815 ","$374,745 ",98%,"$299,000 ","2,746",50,,,,
+Houston,,League City,,4,2017,"$297,889 ","$283,341 ",95%,"$261,000 ","1,991",60,,,,
+Houston,,League City,,4,2018,"$300,463 ","$287,729 ",96%,"$267,000 ","1,971",68,,,,
+Houston,,League City,,4,2019,"$315,703 ","$294,816 ",93%,"$273,000 ","2,081",65,,,,
+Houston,,League City,,4,2020,"$332,429 ","$322,075 ",97%,"$292,700 ","2,110",56,,,,
+Houston,,League City,,4,2021,"$366,318 ","$360,421 ",98%,"$325,000 ","2,096",29,,,,
+Houston,,Magnolia Area,,4,2017,"$379,789 ","$348,941 ",92%,"$284,500 ","1,009",112,,,,
+Houston,,Magnolia Area,,4,2018,"$360,722 ","$341,750 ",95%,"$289,000 ","1,038",111,,,,
+Houston,,Magnolia Area,,4,2019,"$372,809 ","$353,003 ",95%,"$294,998 ","1,120",105,,,,
+Houston,,Magnolia Area,,4,2020,"$385,976 ","$371,764 ",96%,"$315,450 ","1,418",84,,,,
+Houston,,Magnolia Area,,4,2021,"$439,760 ","$430,794 ",98%,"$337,500 ","1,588",48,,,,
+Houston,,Medical / Museum District Area,,4,2017,"$909,149 ","$839,912 ",92%,"$652,500 ",290,102,,,,
+Houston,,Medical / Museum District Area,,4,2018,"$874,985 ","$814,162 ",93%,"$690,000 ",261,111,,,,
+Houston,,Medical / Museum District Area,,4,2019,"$840,546 ","$778,435 ",93%,"$601,250 ",290,126,,,,
+Houston,,Medical / Museum District Area,,4,2020,"$854,995 ","$798,385 ",93%,"$530,000 ",368,124,,,,
+Houston,,Medical / Museum District Area,,4,2021,"$809,408 ","$773,699 ",96%,"$500,000 ",479,96,,,,
+Houston,,Memorial Close-In,,4,2017,"$2,528,729 ","$2,103,625 ",83%,"$1,257,750 ",28,159,,,,
+Houston,,Memorial Close-In,,4,2018,"$2,424,000 ","$2,089,745 ",86%,"$1,930,000 ",37,217,,,,
+Houston,,Memorial Close-In,,4,2019,"$2,073,814 ","$1,728,435 ",83%,"$1,655,000 ",22,151,,,,
+Houston,,Memorial Close-In,,4,2020,"$2,518,024 ","$2,242,130 ",89%,"$1,652,975 ",38,232,,,,
+Houston,,Memorial Close-In,,4,2021,"$2,523,204 ","$2,288,331 ",91%,"$2,130,000 ",46,135,,,,
+Houston,,Memorial Park / Washington Corridor Area,,4,2017,"$562,622 ","$529,441 ",94%,"$439,900 ",392,122,,,,
+Houston,,Memorial Park / Washington Corridor Area,,4,2018,"$572,438 ","$543,458 ",95%,"$445,000 ",419,121,,,,
+Houston,,Memorial Park / Washington Corridor Area,,4,2019,"$562,976 ","$531,268 ",94%,"$459,950 ",458,126,,,,
+Houston,,Memorial Park / Washington Corridor Area,,4,2020,"$578,017 ","$545,308 ",94%,"$470,000 ",528,127,,,,
+Houston,,Memorial Park / Washington Corridor Area,,4,2021,"$632,763 ","$596,457 ",94%,"$491,000 ",632,82,,,,
+Houston,,Memorial Vilages,,4,2017,"$1,903,087 ","$1,744,196 ",92%,"$1,500,000 ",253,131,,,,
+Houston,,Memorial Vilages,,4,2018,"$1,852,601 ","$1,684,903 ",91%,"$1,525,000 ",267,122,,,,
+Houston,,Memorial Vilages,,4,2019,"$1,812,038 ","$1,656,108 ",91%,"$1,500,000 ",285,148,,,,
+Houston,,Memorial Vilages,,4,2020,"$1,877,339 ","$1,675,025 ",89%,"$1,500,000 ",262,158,,,,
+Houston,,Memorial Vilages,,4,2021,"$1,981,254 ","$1,829,303 ",92%,"$1,600,000 ",341,114,,,,
+Houston,,Memorial West,,4,2017,"$824,922 ","$772,244 ",94%,"$689,900 ",431,86,,,,
+Houston,,Memorial West,,4,2018,"$787,185 ","$716,577 ",91%,"$628,500 ",450,107,,,,
+Houston,,Memorial West,,4,2019,"$821,531 ","$761,620 ",93%,"$660,000 ",487,111,,,,
+Houston,,Memorial West,,4,2020,"$881,606 ","$827,658 ",94%,"$726,000 ",499,119,,,,
+Houston,,Memorial West,,4,2021,"$1,052,033 ","$987,243 ",94%,"$825,000 ",519,97,,,,
+Houston,,Meyerland,,4,2017,"$464,565 ","$429,640 ",92%,"$372,500 ",254,104,,,,
+Houston,,Meyerland,,4,2018,"$454,299 ","$372,393 ",82%,"$305,000 ",320,118,,,,
+Houston,,Meyerland,,4,2019,"$454,523 ","$414,320 ",91%,"$351,023 ",205,161,,,,
+Houston,,Meyerland,,4,2020,"$445,683 ","$408,461 ",92%,"$362,500 ",256,158,,,,
+Houston,,Meyerland,,4,2021,"$486,212 ","$463,825 ",95%,"$420,000 ",330,109,,,,
+Houston,,North Cypress and Tomball,,4,2017,"$298,952 ","$279,164 ",93%,"$239,945 ","2,616",80,,,,
+Houston,,North Cypress and Tomball,,4,2018,"$310,559 ","$294,981 ",95%,"$255,000 ","2,513",81,,,,
+Houston,,North Cypress and Tomball,,4,2019,"$329,569 ","$313,426 ",95%,"$270,000 ","2,699",80,,,,
+Houston,,North Cypress and Tomball,,4,2020,"$335,254 ","$323,473 ",96%,"$282,500 ","2,781",60,,,,
+Houston,,North Cypress and Tomball,,4,2021,"$384,487 ","$382,301 ",99%,"$327,000 ","2,989",26,,,,
+Houston,,Oak Forest / Shepard Park Plaza Area,,4,2017,"$438,207 ","$412,954 ",94%,"$360,000 ",676,88,,,,
+Houston,,Oak Forest / Shepard Park Plaza Area,,4,2018,"$464,438 ","$438,677 ",94%,"$368,250 ",688,84,,,,
+Houston,,Oak Forest / Shepard Park Plaza Area,,4,2019,"$476,427 ","$455,781 ",96%,"$385,000 ",723,80,,,,
+Houston,,Oak Forest / Shepard Park Plaza Area,,4,2020,"$502,427 ","$471,723 ",94%,"$375,000 ",849,80,,,,
+Houston,,Oak Forest / Shepard Park Plaza Area,,4,2021,"$508,439 ","$495,514 ",97%,"$400,000 ",950,59,,,,
+Houston,,Pearland,,4,2017,"$285,807 ","$272,747 ",95%,"$256,750 ","2,212",55,,,,
+Houston,,Pearland,,4,2018,"$290,767 ","$279,241 ",96%,"$265,000 ","2,181",59,,,,
+Houston,,Pearland,,4,2019,"$296,617 ","$284,866 ",96%,"$270,000 ","2,042",64,,,,
+Houston,,Pearland,,4,2020,"$302,119 ","$294,434 ",97%,"$278,000 ","2,179",61,,,,
+Houston,,Pearland,,4,2021,"$336,278 ","$338,936 ",101%,"$323,495 ","2,150",26,,,,
+Houston,,Porter / New Caney Area,,4,2017,"$249,438 ","$234,618 ",94%,"$224,662 ",776,106,,,,
+Houston,,Porter / New Caney Area,,4,2018,"$248,471 ","$234,941 ",95%,"$224,450 ",808,91,,,,
+Houston,,Porter / New Caney Area,,4,2019,"$253,464 ","$238,712 ",94%,"$225,000 ",917,94,,,,
+Houston,,Porter / New Caney Area,,4,2020,"$265,789 ","$253,124 ",95%,"$228,990 ","1,187",93,,,,
+Houston,,Porter / New Caney Area,,4,2021,"$294,703 ","$289,765 ",98%,"$257,000 ","1,350",44,,,,
+Houston,,River Oaks Area,,4,2021,"$2,613,886 ","$2,391,810 ",92%,"$2,050,000 ",232,140,,,,
+Houston,,River Oaks Area,,4,2020,"$2,532,826 ","$2,254,958 ",89%,"$1,740,000 ",157,189,,,,
+Houston,,River Oaks Area,,4,2019,"$2,444,446 ","$2,173,031 ",89%,"$1,725,000 ",153,146,,,,
+Houston,,River Oaks Area,,4,2018,"$2,395,919 ","$2,158,826 ",90%,"$1,870,688 ",160,131,,,,
+Houston,,River Oaks Area,,4,2017,"$2,063,441 ","$1,838,572 ",89%,"$1,490,000 ",139,114,,,,
+Houston,,River Oaks Proper,,4,2021,"$3,800,725 ","$3,461,320 ",91%,"$2,867,500 ",102,170,,,,
+Houston,,River Oaks Proper,,4,2020,"$3,872,575 ","$3,358,382 ",87%,"$2,785,000 ",67,240,,,,
+Houston,,River Oaks Proper,,4,2019,"$3,597,706 ","$3,177,127 ",88%,"$2,447,125 ",68,154,,,,
+Houston,,River Oaks Proper,,4,2018,"$3,291,122 ","$2,933,505 ",89%,"$2,400,000 ",81,140,,,,
+Houston,,River Oaks Proper,,4,2017,"$3,148,130 ","$2,766,849 ",88%,"$2,194,415 ",53,104,,,,
+Houston,,Spring Area,,4,2021,"$367,687 ","$365,896 ",100%,"$319,000 ","5,409",30,,,,
+Houston,,Spring Area,,4,2020,"$320,863 ","$308,785 ",96%,"$269,500 ","5,261",64,,,,
+Houston,,Spring Area,,4,2019,"$303,243 ","$288,175 ",95%,"$252,000 ","4,869",78,,,,
+Houston,,Spring Area,,4,2018,"$290,995 ","$275,624 ",95%,"$242,000 ","4,495",91,,,,
+Houston,,Spring Area,,4,2017,"$283,181 ","$267,436 ",94%,"$230,000 ","4,286",85,,,,
+Houston,,Spring Branch,,4,2021,"$459,633 ","$447,249 ",97%,"$375,000 ","1,676",82,,,,
+Houston,,Spring Branch,,4,2020,"$433,642 ","$408,844 ",94%,"$343,000 ","1,291",106,,,,
+Houston,,Spring Branch,,4,2019,"$429,026 ","$405,102 ",94%,"$332,995 ","1,171",112,,,,
+Houston,,Spring Branch,,4,2018,"$440,494 ","$417,392 ",95%,"$342,000 ","1,098",120,,,,
+Houston,,Spring Branch,,4,2017,"$406,041 ","$384,704 ",95%,"$330,000 ","1,140",102,,,,
+Houston,,Tanglewood / Galleria Area,,4,2021,"$1,219,369 ","$1,140,777 ",94%,"$869,430 ",460,137,,,,
+Houston,,Tanglewood / Galleria Area,,4,2020,"$1,260,719 ","$1,150,058 ",91%,"$900,000 ",268,175,,,,
+Houston,,Tanglewood / Galleria Area,,4,2019,"$1,341,936 ","$1,226,106 ",91%,"$915,000 ",298,175,,,,
+Houston,,Tanglewood / Galleria Area,,4,2018,"$1,154,890 ","$1,041,178 ",90%,"$842,500 ",266,156,,,,
+Houston,,Tanglewood / Galleria Area,,4,2017,"$1,274,607 ","$1,155,999 ",91%,"$852,500 ",284,149,,,,
+Houston,,Tanglewood Proper,,4,2021,"$2,295,955 ","$2,105,706 ",92%,"$1,975,000 ",73,151,,,,
+Houston,,Tanglewood Proper,,4,2020,"$2,262,413 ","$1,982,270 ",88%,"$1,700,000 ",52,172,,,,
+Houston,,Tanglewood Proper,,4,2019,"$2,548,037 ","$2,297,368 ",90%,"$2,039,000 ",51,264,,,,
+Houston,,Tanglewood Proper,,4,2018,"$2,052,487 ","$1,813,004 ",88%,"$1,650,000 ",45,148,,,,
+Houston,,Tanglewood Proper,,4,2017,"$2,658,604 ","$2,376,483 ",89%,"$2,225,000 ",53,203,,,,
+Houston,,The Woodlands,,4,2021,"$639,806 ","$628,314 ",98%,"$480,000 ","2,750",42,,,,
+Houston,,The Woodlands,,4,2020,"$551,288 ","$521,776 ",95%,"$410,000 ","2,359",78,,,,
+Houston,,The Woodlands,,4,2019,"$499,304 ","$469,524 ",94%,"$372,000 ","2,187",91,,,,
+Houston,,The Woodlands,,4,2018,"$500,413 ","$473,238 ",95%,"$378,000 ","1,940",97,,,,
+Houston,,The Woodlands,,4,2017,"$490,501 ","$455,050 ",93%,"$357,500 ","2,078",108,,,,
+Houston,,West U / Southside,,4,2021,"$1,536,473 ","$1,471,458 ",96%,"$1,345,000 ",362,85,,,,
+Houston,,West U / Southside,,4,2020,"$1,580,178 ","$1,481,655 ",94%,"$1,352,270 ",270,116,,,,
+Houston,,West U / Southside,,4,2019,"$1,470,117 ","$1,389,652 ",95%,"$1,261,000 ",293,91,,,,
+Houston,,West U / Southside,,4,2018,"$1,468,403 ","$1,403,903 ",96%,"$1,271,230 ",290,91,,,,
+Houston,,West U / Southside,,4,2017,"$1,400,199 ","$1,332,403 ",95%,"$1,231,985 ",294,96,,,,
+Houston,,Willow Meadows,,4,2021,"$380,151 ","$365,640 ",96%,"$319,000 ",197,56,,,,
+Houston,,Willow Meadows,,4,2020,"$341,610 ","$321,044 ",94%,"$293,100 ",150,107,,,,
+Houston,,Willow Meadows,,4,2019,"$351,684 ","$322,572 ",92%,"$297,000 ",155,136,,,,
+Houston,,Willow Meadows,,4,2018,"$348,523 ","$315,786 ",91%,"$284,500 ",140,94,,,,
+Houston,,Willow Meadows,,4,2017,"$336,721 ","$312,342 ",93%,"$290,000 ",164,82,,,,
+Sonoma - Napa Wine Country,,Calistoga,,4,2021,,"$1,600,000 ",,,18,129,"$29,000,000 ",,,
+Sonoma - Napa Wine Country,,Healdsburg,,4,2021,,"$1,500,000 ",,,74,129,"$112,000,000 ",,,
+Sonoma - Napa Wine Country,,Napa,,4,2021,,"$1,200,000 ",,,226,76,"$269,000,000 ",,,
+Sonoma - Napa Wine Country,,Napa County,,4,2018,,"$1,100,000 ",,,279,99,"$296,000,000 ",,,
+Sonoma - Napa Wine Country,,Napa County,,4,2019,,"$1,000,000 ",,,276,110,"$279,000,000 ",,,
+Sonoma - Napa Wine Country,,Napa County,,4,2020,,"$1,200,000 ",,,352,103,"$412,000,000 ",,,
+Sonoma - Napa Wine Country,,Napa County,,4,2021,,"$1,300,000 ",,,338,91,"$443,000,000 ",,,
+Sonoma - Napa Wine Country,,Petaluma,,4,2021,,"$968,000 ",,,164,72,"$159,000,000 ",,,
+Sonoma - Napa Wine Country,,Russian River,,4,2021,,"$639,000 ",,,77,86,"$49,000,000 ",,,
+Sonoma - Napa Wine Country,,Santa Rosa,,4,2021,,"$825,000 ",,,504,80,"$416,000,000 ",,,
+Sonoma - Napa Wine Country,,Sebastopol,,4,2021,,"$1,200,000 ",,,64,106,"$80,000,000 ",,,
+Sonoma - Napa Wine Country,,Sonoma Coast,,4,2021,,"$1,900,000 ",,,36,62,"$69,000,000 ",,,
+Sonoma - Napa Wine Country,,Sonoma County,,4,2018,,"$780,000 ",,,"1,041",98,"$812,000,000 ",,,
+Sonoma - Napa Wine Country,,Sonoma County,,4,2019,,"$788,000 ",,,"1,022",101,"$806,000,000 ",,,
+Sonoma - Napa Wine Country,,Sonoma County,,4,2020,,"$896,000 ",,,"1,259",86,"$1,100,000,000 ",,,
+Sonoma - Napa Wine Country,,Sonoma County,,4,2021,,"$969,000 ",,,"1,352",86,"$1,300,000,000 ",,,
+Sonoma - Napa Wine Country,,Sonoma Valley,,4,2021,,"$1,700,000 ",,,111,112,"$184,000,000 ",,,
+Sonoma - Napa Wine Country,,St Helena & Yountville,,4,2021,,"$2,700,000 ",,,35,150,"$96,000,000 ",,,
