@@ -10,6 +10,7 @@ SELECT
     round(bd_area_confidence:: NUMERIC, 2) bd_area_confidence_original,
     round( (SUM(bg_bd_confidence) * 100):: NUMERIC, 2) bd_area_confidence
 FROM (
+
     SELECT
         bd.label AS bd_label,
         bd._id AS bd_id,
@@ -44,6 +45,7 @@ FROM (
         ):: NUMERIC,
         2
     ) > 0
+
     GROUP BY
         bd.label,
         bd._id,
