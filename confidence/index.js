@@ -1,32 +1,35 @@
 const { MongoClient } = require('mongodb')
 const fs = require('fs')
-const ws = fs.createWriteStream('demographics.csv')
+const ws = fs.createWriteStream('demographics_median_household_income.csv')
 const fastcsv = require('fast-csv')
 const debug = require('debug')('getData')
 
-const url = 'mongodb+srv://philcollins:Q0AzLMGqUr6SiX6Q@clustercluck-mmdtz.mongodb.net/LiveBy'
+const url =
+  'mongodb+srv://philcollins:Q0AzLMGqUr6SiX6Q@clustercluck-mmdtz.mongodb.net/LiveBy'
 const client = new MongoClient(url)
 
 const agg = [
   {
     $match: {
+      // 'properties.demographics.median_age': 0,
+      'properties.demographics.median_household_income': 0,
       'properties.demographics.confidence': { $exists: true },
       'properties.banned': null,
       'properties.archived': null
     }
   },
   {
-    $project:
-    {
-      'community_type': '$properties.community_type',
-      'area_m': '$properties.area_m',
-      'confidence': '$properties.demographics.confidence',
-      'population': '$properties.demographics.population',
-      'median_age': '$properties.demographics.median_age',
-      'median_household_income': '$properties.demographics.median_household_income',
-      'total_educated': '$properties.demographics.total_educated',
-      'unemployment_rate': '$properties.demographics.unemployment_rate',
-      'country': '$properties.address.country'
+    $project: {
+      community_type: '$properties.community_type',
+      area_m: '$properties.area_m',
+      confidence: '$properties.demographics.confidence',
+      population: '$properties.demographics.population',
+      median_age: '$properties.demographics.median_age',
+      median_household_income:
+        '$properties.demographics.median_household_income',
+      total_educated: '$properties.demographics.total_educated',
+      unemployment_rate: '$properties.demographics.unemployment_rate',
+      country: '$properties.address.country'
     }
   }
 ]
@@ -42,9 +45,14 @@ async function main() {
   debug('write csv from data')
   fastcsv
     .writeToStream(ws, aggResult, { headers: true })
-    .on('finish', function () { debug('done') })
+    .on('finish', function () {
+      debug('done')
+    })
 
   return 'done.'
 }
 
-main().then(console.log).catch(console.error).finally(() => client.close())
+main()
+  .then(console.log)
+  .catch(console.error)
+  .finally(() => client.close())
